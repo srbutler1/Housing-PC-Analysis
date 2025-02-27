@@ -1,0 +1,17 @@
+Period: 2012_2015
+R² Score: 0.6472
+RMSE: 0.0199
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2105
+Significant Factors:
+
+component_2:
+Explained Variance: 0.2058
+Significant Factors:
+
+component_3:
+Explained Variance: 0.1238
+Significant Factors:

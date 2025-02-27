@@ -1,0 +1,17 @@
+Period: 2020_2023
+R² Score: 0.9409
+RMSE: 0.0512
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3685
+Significant Factors:
+
+component_2:
+Explained Variance: 0.4724
+Significant Factors:
+
+component_3:
+Explained Variance: 0.1591
+Significant Factors:

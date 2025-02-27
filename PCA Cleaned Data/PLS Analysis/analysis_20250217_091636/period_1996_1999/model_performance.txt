@@ -1,0 +1,28 @@
+Period: 1996_1999
+R² Score: -484.3273
+RMSE: 0.8098
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2443
+Significant Factors:
+• Demand_population: 0.4541
+• Market_mortgage: 0.9192
+
+component_2:
+Explained Variance: 0.5166
+Significant Factors:
+• Supply_prfi: -0.4159
+• Demand_population: -1.5005
+• Demand_unemployment: 0.3648
+• Market_mortgage: 0.3608
+• Market_mspus: 0.5828
+• Market_cpi: 0.5105
+• Market_ppi: 0.6786
+
+component_3:
+Explained Variance: 0.7687
+Significant Factors:
+• Demand_population: 0.8750
+• Market_mortgage: -0.4137

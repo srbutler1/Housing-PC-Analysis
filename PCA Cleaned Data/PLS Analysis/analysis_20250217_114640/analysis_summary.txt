@@ -1,0 +1,525 @@
+PLS Regression Analysis Summary
+============================
+
+Period: 1996_1999
+=================
+
+Component Analysis:
+
+Component 1:
+Loadings:
+• housing_starts: -0.1533
+• prfi: -0.0656
+• population: 0.4170
+• dpi: -0.6270
+• unemployment: 0.0472
+• mortgage: 0.5084
+• mspus: -0.1505
+• cpi: 0.2131
+• ppi: 0.3683
+• gdp: 0.3441
+
+Component 2:
+Loadings:
+• housing_starts: 0.3250
+• prfi: -0.5126
+• population: 0.1716
+• dpi: 0.3797
+• unemployment: -0.4579
+• mortgage: -0.1175
+• mspus: 0.2061
+• cpi: -0.2625
+• ppi: -0.5242
+• gdp: 0.3560
+
+Component 3:
+Loadings:
+• housing_starts: -0.2628
+• prfi: -0.2288
+• population: -0.4355
+• dpi: 0.1226
+• unemployment: 0.0946
+• mortgage: 0.2335
+• mspus: 0.2599
+• cpi: 0.6713
+• ppi: 0.3460
+• gdp: -0.4398
+
+Regression Coefficients:
+• housing_starts: -0.0510
+• prfi: -0.4590
+• population: 0.3799
+• dpi: -0.0198
+• unemployment: -0.2956
+• mortgage: 0.4067
+• mspus: 0.1542
+• cpi: 0.4137
+• ppi: 0.0562
+• gdp: 0.4113
+
+R-squared: 0.7740
+Period: 2000_2003
+=================
+
+Component Analysis:
+
+Component 1:
+Loadings:
+• housing_starts: 0.0222
+• prfi: 0.4441
+• population: -0.1072
+• dpi: 0.2333
+• unemployment: -0.3631
+• mortgage: 0.4723
+• mspus: 0.1895
+• cpi: 0.1873
+• ppi: 0.4368
+• gdp: 0.4779
+
+Component 2:
+Loadings:
+• housing_starts: -0.1327
+• prfi: 0.1397
+• population: -0.4726
+• dpi: 0.1881
+• unemployment: 0.0099
+• mortgage: -0.0555
+• mspus: 0.0951
+• cpi: 0.7384
+• ppi: 0.4245
+• gdp: -0.2841
+
+Component 3:
+Loadings:
+• housing_starts: -0.3589
+• prfi: 0.5327
+• population: -0.0191
+• dpi: 0.5830
+• unemployment: 0.6910
+• mortgage: 0.4484
+• mspus: -0.6068
+• cpi: 0.0871
+• ppi: -0.0402
+• gdp: -0.4420
+
+Regression Coefficients:
+• housing_starts: 0.2082
+• prfi: 0.3733
+• population: 0.1138
+• dpi: 0.1851
+• unemployment: -0.0640
+• mortgage: 0.4650
+• mspus: -0.1652
+• cpi: -0.1282
+• ppi: -0.2453
+• gdp: 0.3346
+
+R-squared: 0.6774
+Period: 2004_2007
+=================
+
+Component Analysis:
+
+Component 1:
+Loadings:
+• housing_starts: -0.3814
+• prfi: -0.4583
+• population: 0.4499
+• dpi: -0.0196
+• unemployment: 0.3554
+• mortgage: 0.1998
+• mspus: -0.4094
+• cpi: -0.2769
+• ppi: -0.3698
+• gdp: -0.4037
+
+Component 2:
+Loadings:
+• housing_starts: -0.1684
+• prfi: -0.3545
+• population: -0.0363
+• dpi: -0.3412
+• unemployment: 0.4481
+• mortgage: -0.5686
+• mspus: 0.1840
+• cpi: -0.1876
+• ppi: -0.3475
+• gdp: -0.3725
+
+Component 3:
+Loadings:
+• housing_starts: -0.0552
+• prfi: 0.6819
+• population: 0.2960
+• dpi: -0.7337
+• unemployment: 0.4129
+• mortgage: 0.5613
+• mspus: -0.1802
+• cpi: -0.2352
+• ppi: 0.4023
+• gdp: 0.2604
+
+Regression Coefficients:
+• housing_starts: 0.0273
+• prfi: -0.6587
+• population: 0.1707
+• dpi: 0.2751
+• unemployment: -0.4861
+• mortgage: 0.5717
+• mspus: -0.2033
+• cpi: 0.0959
+• ppi: -0.1629
+• gdp: 0.0080
+
+R-squared: 0.7530
+Period: 2008_2011
+=================
+
+Component Analysis:
+
+Component 1:
+Loadings:
+• housing_starts: 0.3980
+• prfi: 0.5099
+• population: -0.4423
+• dpi: 0.1813
+• unemployment: -0.5386
+• mortgage: 0.0932
+• mspus: 0.3134
+• cpi: 0.0765
+• ppi: 0.0492
+• gdp: 0.4661
+
+Component 2:
+Loadings:
+• housing_starts: 0.0270
+• prfi: 0.1152
+• population: 0.0254
+• dpi: 0.1058
+• unemployment: -0.2104
+• mortgage: 0.5117
+• mspus: 0.2226
+• cpi: 0.4611
+• ppi: 0.6054
+• gdp: 0.3128
+
+Component 3:
+Loadings:
+• housing_starts: -0.1895
+• prfi: -0.3291
+• population: -0.1021
+• dpi: 0.8358
+• unemployment: -0.0327
+• mortgage: -0.1747
+• mspus: 0.4141
+• cpi: -0.2317
+• ppi: -0.2489
+• gdp: -0.1172
+
+Regression Coefficients:
+• housing_starts: -0.2940
+• prfi: -0.3658
+• population: 0.3752
+• dpi: 0.1772
+• unemployment: 0.2445
+• mortgage: 0.2292
+• mspus: -0.0163
+• cpi: 0.1309
+• ppi: 0.3042
+• gdp: -0.1055
+
+R-squared: 0.7928
+Period: 2012_2015
+=================
+
+Component Analysis:
+
+Component 1:
+Loadings:
+• housing_starts: 0.2269
+• prfi: -0.3264
+• population: 0.5592
+• dpi: 0.3406
+• unemployment: -0.1816
+• mortgage: 0.0652
+• mspus: -0.1784
+• cpi: -0.5110
+• ppi: -0.4935
+• gdp: -0.0596
+
+Component 2:
+Loadings:
+• housing_starts: -0.3228
+• prfi: -0.1771
+• population: 0.0241
+• dpi: -0.0858
+• unemployment: -0.2837
+• mortgage: 0.4503
+• mspus: -0.1486
+• cpi: 0.4627
+• ppi: 0.4414
+• gdp: 0.4509
+
+Component 3:
+Loadings:
+• housing_starts: -0.2792
+• prfi: 0.8139
+• population: 0.2210
+• dpi: -0.0433
+• unemployment: -0.0934
+• mortgage: 0.4484
+• mspus: -0.0576
+• cpi: -0.2411
+• ppi: -0.1435
+• gdp: 0.5100
+
+Regression Coefficients:
+• housing_starts: 0.0203
+• prfi: -0.4577
+• population: 0.3451
+• dpi: 0.1743
+• unemployment: -0.2911
+• mortgage: 0.1928
+• mspus: -0.1511
+• cpi: 0.0830
+• ppi: -0.1228
+• gdp: 0.0821
+
+R-squared: 0.6472
+Period: 2016_2019
+=================
+
+Component Analysis:
+
+Component 1:
+Loadings:
+• housing_starts: 0.3350
+• prfi: 0.4991
+• population: 0.3634
+• dpi: -0.5460
+• unemployment: -0.1393
+• mortgage: -0.4264
+• mspus: 0.2880
+• cpi: 0.2177
+• ppi: 0.1191
+• gdp: 0.0895
+
+Component 2:
+Loadings:
+• housing_starts: 0.0429
+• prfi: 0.2437
+• population: -0.0925
+• dpi: -0.0922
+• unemployment: -0.5823
+• mortgage: 0.2364
+• mspus: 0.4092
+• cpi: 0.1147
+• ppi: 0.3803
+• gdp: 0.6707
+
+Component 3:
+Loadings:
+• housing_starts: 0.6201
+• prfi: 0.4223
+• population: -0.2454
+• dpi: 0.4196
+• unemployment: -0.2854
+• mortgage: 0.4568
+• mspus: -0.2140
+• cpi: 0.2909
+• ppi: 0.4554
+• gdp: -0.0125
+
+Regression Coefficients:
+• housing_starts: -0.5452
+• prfi: -0.4892
+• population: -0.2769
+• dpi: 0.2080
+• unemployment: -0.2538
+• mortgage: 0.1732
+• mspus: 0.0256
+• cpi: -0.0888
+• ppi: 0.1162
+• gdp: 0.2920
+
+R-squared: 0.7953
+Period: 2020_2023
+=================
+
+Component Analysis:
+
+Component 1:
+Loadings:
+• housing_starts: -0.2214
+• prfi: -0.4885
+• population: 0.6322
+• dpi: -0.0125
+• unemployment: 0.1269
+• mortgage: 0.4105
+• mspus: -0.2423
+• cpi: -0.1350
+• ppi: -0.4090
+• gdp: -0.1447
+
+Component 2:
+Loadings:
+• housing_starts: 0.1199
+• prfi: 0.3688
+• population: 0.1673
+• dpi: -0.4050
+• unemployment: -0.5443
+• mortgage: 0.2169
+• mspus: 0.2619
+• cpi: 0.2874
+• ppi: 0.2685
+• gdp: 0.5701
+
+Component 3:
+Loadings:
+• housing_starts: 0.6424
+• prfi: 0.0423
+• population: 0.0968
+• dpi: 0.4277
+• unemployment: 0.1541
+• mortgage: -0.2570
+• mspus: -0.6797
+• cpi: -0.2417
+• ppi: 0.0368
+• gdp: -0.0742
+
+Regression Coefficients:
+• housing_starts: 0.1290
+• prfi: -0.1666
+• population: 0.6615
+• dpi: 0.1148
+• unemployment: -0.1456
+• mortgage: 0.3395
+• mspus: -0.3151
+• cpi: 0.0453
+• ppi: -0.0280
+• gdp: 0.1638
+
+R-squared: 0.9409
+
+
+Temporal Analysis
+=================
+
+Component Evolution Over Time:
+
+Period 1996_1999:
+
+Component 1 - Top Factors:
+• dpi: -0.6270
+• mortgage: 0.5084
+• population: 0.4170
+
+Component 2 - Top Factors:
+• ppi: -0.5242
+• prfi: -0.5126
+• unemployment: -0.4579
+
+Component 3 - Top Factors:
+• cpi: 0.6713
+• gdp: -0.4398
+• population: -0.4355
+
+Period 2000_2003:
+
+Component 1 - Top Factors:
+• gdp: 0.4779
+• mortgage: 0.4723
+• prfi: 0.4441
+
+Component 2 - Top Factors:
+• cpi: 0.7384
+• population: -0.4726
+• ppi: 0.4245
+
+Component 3 - Top Factors:
+• unemployment: 0.6910
+• mspus: -0.6068
+• dpi: 0.5830
+
+Period 2004_2007:
+
+Component 1 - Top Factors:
+• prfi: -0.4583
+• population: 0.4499
+• mspus: -0.4094
+
+Component 2 - Top Factors:
+• mortgage: -0.5686
+• unemployment: 0.4481
+
+Component 3 - Top Factors:
+• dpi: -0.7337
+• prfi: 0.6819
+• mortgage: 0.5613
+
+Period 2008_2011:
+
+Component 1 - Top Factors:
+• unemployment: -0.5386
+• prfi: 0.5099
+• gdp: 0.4661
+
+Component 2 - Top Factors:
+• ppi: 0.6054
+• mortgage: 0.5117
+• cpi: 0.4611
+
+Component 3 - Top Factors:
+• dpi: 0.8358
+• mspus: 0.4141
+
+Period 2012_2015:
+
+Component 1 - Top Factors:
+• population: 0.5592
+• cpi: -0.5110
+• ppi: -0.4935
+
+Component 2 - Top Factors:
+• cpi: 0.4627
+• gdp: 0.4509
+• mortgage: 0.4503
+
+Component 3 - Top Factors:
+• prfi: 0.8139
+• gdp: 0.5100
+• mortgage: 0.4484
+
+Period 2016_2019:
+
+Component 1 - Top Factors:
+• dpi: -0.5460
+• prfi: 0.4991
+• mortgage: -0.4264
+
+Component 2 - Top Factors:
+• gdp: 0.6707
+• unemployment: -0.5823
+• mspus: 0.4092
+
+Component 3 - Top Factors:
+• housing_starts: 0.6201
+• mortgage: 0.4568
+• ppi: 0.4554
+
+Period 2020_2023:
+
+Component 1 - Top Factors:
+• population: 0.6322
+• prfi: -0.4885
+• mortgage: 0.4105
+
+Component 2 - Top Factors:
+• gdp: 0.5701
+• unemployment: -0.5443
+• dpi: -0.4050
+
+Component 3 - Top Factors:
+• mspus: -0.6797
+• housing_starts: 0.6424
+• dpi: 0.4277

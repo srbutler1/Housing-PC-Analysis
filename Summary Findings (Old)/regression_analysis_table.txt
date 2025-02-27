@@ -1,0 +1,33 @@
+Table 1. Statistical Analysis of Housing Affordability Determinants (1996-2022)
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+Factor                                          Impact Mechanism                    Observed Effect
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+Housing Supply Factors:
+  Housing Starts                                Direct supply increase             Strong positive
+  Construction Investment                       Indirect through supply            Moderate positive
+  Construction Prices                           Cost pressure on supply            Strong negative
+
+Demand-Side Factors:
+  Population Size                               Base demand driver                 Moderate negative
+  Household Income                              Purchasing power                   Strong positive
+  Unemployment Rate                             Income stability                   Strong negative
+  
+Financial Conditions:
+  Mortgage Rates                                Cost of financing                  Strong negative
+  Consumer Price Index                          Real income erosion               Moderate negative
+  
+Economic Environment:
+  GDP Growth                                    Overall economic health            Moderate positive
+  Exchange Rates                                Import costs/Investment            Weak negative
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Key Relationships Identified:
+
+1. Supply-Side Dynamics:
+   - Housing starts showed strongest positive impact during recovery periods
+   - Construction prices gained significance post-2008
+   - Investment effects show time-lagged positive impact
+
+2. Demand Influences:
+   - Population effects stronger in urban areas
+   - Income effects amplified during crisis periods

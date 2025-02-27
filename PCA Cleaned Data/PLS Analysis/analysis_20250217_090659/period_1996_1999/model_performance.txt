@@ -1,0 +1,28 @@
+Period: 1996_1999
+R² Score: -484.3273
+RMSE: 0.8098
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2443
+Significant Factors:
+• Population: 0.4541
+• Mortgage Rate: 0.9192
+
+component_2:
+Explained Variance: 0.5166
+Significant Factors:
+• House Prices: 0.5828
+• PRFI: -0.4159
+• PPI: 0.6786
+• Population: -1.5005
+• Mortgage Rate: 0.3608
+• Unemployment: 0.3648
+• CPI: 0.5105
+
+component_3:
+Explained Variance: 0.7687
+Significant Factors:
+• Population: 0.8750
+• Mortgage Rate: -0.4137

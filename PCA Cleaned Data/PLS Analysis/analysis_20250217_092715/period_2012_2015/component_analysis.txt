@@ -1,0 +1,56 @@
+Period: 2012_2015
+R² Score: 0.6472
+RMSE: 0.0199
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.4796
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0564
+• prfi: 0.2159
+• population: 0.2693
+• dpi: 0.1481
+• unemployment: 0.1445
+• mortgage: 0.1011
+• mspus: 0.1067
+• cpi: 0.1320
+• ppi: 0.1616
+• gdp: 0.0360
+
+component_2:
+Explained Variance: 0.3540
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0834
+• prfi: 0.2265
+• population: 0.2693
+• dpi: 0.1492
+• unemployment: 0.1591
+• mortgage: 0.1296
+• mspus: 0.1094
+• cpi: 0.1871
+• ppi: 0.1842
+• gdp: 0.0834
+
+component_3:
+Explained Variance: 0.1664
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0852
+• prfi: 0.2302
+• population: 0.2694
+• dpi: 0.1492
+• unemployment: 0.1591
+• mortgage: 0.1332
+• mspus: 0.1103
+• cpi: 0.1914
+• ppi: 0.1850
+• gdp: 0.0923

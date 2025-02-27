@@ -1,0 +1,32 @@
+Analysis Summary for Period: 2016_2019
+==================================================
+
+Component Loadings:
+--------------------
+                Component 1  Component 2  Component 3
+housing_starts     0.335010     0.042911     0.620071
+prfi               0.499110     0.243750     0.422279
+population         0.363360    -0.092488    -0.245385
+dpi               -0.546044    -0.092237     0.419575
+unemployment      -0.139254    -0.582325    -0.285352
+mortgage          -0.426419     0.236415     0.456762
+mspus              0.288038     0.409153    -0.214022
+cpi                0.217692     0.114678     0.290945
+ppi                0.119097     0.380295     0.455437
+gdp                0.089482     0.670671    -0.012516
+
+Regression Coefficients:
+--------------------
+                Coefficient
+housing_starts    -0.545162
+prfi              -0.489182
+population        -0.276850
+dpi                0.208048
+unemployment      -0.253768
+mortgage           0.173192
+mspus              0.025635
+cpi               -0.088781
+ppi                0.116190
+gdp                0.291976
+
+R-squared: 0.7953

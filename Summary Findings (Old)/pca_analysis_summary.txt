@@ -1,0 +1,76 @@
+PCA Analysis of Housing Affordability Factors (1996-2022)
+
+Key Findings:
+
+1. Structural Changes in Housing Market Determinants:
+   - Pre-2008: Market driven by fundamental factors (GDP, population, investment)
+   - 2008-2011 Crisis: Shift to population and income as key drivers
+   - Post-2008 Recovery: More balanced influence of factors
+   - 2020-2022 Pandemic: Strong influence of construction and housing prices
+
+2. Component Analysis:
+
+First Principal Component (Market Fundamentals):
+- Consistently explains 50-70% of variance
+- Shows evolution from pure economic factors to include construction/price factors
+- Lowest explanatory power during 2008-2011 crisis (50.92%)
+- Highest during 2000-2003 tech recovery (69.56%)
+
+Second Principal Component (Financial Conditions):
+- Explains 14-23% of variance
+- Pre-2008: Dominated by mortgage rates
+- Crisis period: Shifted to inflation and GDP
+- Post-crisis: Hybrid of rates and price changes
+- Pandemic: Unique focus on supply (housing starts) and income
+
+Third Principal Component (Market Dynamics):
+- Explains 6-13% of variance
+- Consistently captures price changes and market activity
+- More influence from income during crisis periods
+
+3. Period-Specific Insights:
+
+1996-1999 (Pre-Tech Bubble):
+- Traditional market fundamentals dominated
+- Strong influence of GDP and population
+- Mortgage rates key in second component
+
+2000-2003 (Tech Bubble/Recovery):
+- Highest concentration in first component (69.56%)
+- Similar pattern to previous period
+- Construction prices gained importance
+
+2004-2007 (Housing Bubble):
+- Construction prices became dominant
+- Investment and housing starts more influential
+- Early warning signs in price components
+
+2008-2011 (Financial Crisis):
+- Most dispersed variance across components
+- Shift to population and income as key factors
+- Unique importance of CPI and GDP in second component
+
+2012-2015 (Post-Crisis Recovery):
+- Return to fundamental factors
+- Unemployment gained importance
+- More balanced influence of price factors
+
+2016-2019 (Pre-Pandemic):
+- Very balanced factor influence
+- Construction prices and unemployment key
+- Strong mortgage rate influence returns
+
+2020-2022 (Pandemic Period):
+- High concentration in first two components (84.84%)
+- Construction and housing prices dominant
+- Unique emphasis on housing starts and income
+
+4. Implications:
+
+- Housing affordability factors have evolved significantly over time
+- Crisis periods show distinct patterns from normal periods
+- Recent pandemic period shows unique characteristics
+- Construction prices and housing prices have gained importance over time
+- Income's role becomes more critical during crisis periods
+
+This analysis suggests that housing affordability is increasingly influenced by supply-side factors (construction prices, housing starts) while remaining sensitive to traditional economic fundamentals. The pandemic period has introduced new patterns, particularly in the relationship between supply, prices, and income.

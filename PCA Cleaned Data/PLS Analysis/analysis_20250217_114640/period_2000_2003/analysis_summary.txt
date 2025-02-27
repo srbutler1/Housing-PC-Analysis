@@ -1,0 +1,32 @@
+Analysis Summary for Period: 2000_2003
+==================================================
+
+Component Loadings:
+--------------------
+                Component 1  Component 2  Component 3
+housing_starts     0.022199    -0.132718    -0.358852
+prfi               0.444113     0.139724     0.532709
+population        -0.107238    -0.472553    -0.019057
+dpi                0.233302     0.188146     0.582969
+unemployment      -0.363136     0.009896     0.691023
+mortgage           0.472278    -0.055464     0.448402
+mspus              0.189545     0.095109    -0.606751
+cpi                0.187308     0.738353     0.087081
+ppi                0.436767     0.424472    -0.040183
+gdp                0.477939    -0.284133    -0.442017
+
+Regression Coefficients:
+--------------------
+                Coefficient
+housing_starts     0.208187
+prfi               0.373337
+population         0.113813
+dpi                0.185069
+unemployment      -0.063981
+mortgage           0.465017
+mspus             -0.165170
+cpi               -0.128170
+ppi               -0.245279
+gdp                0.334582
+
+R-squared: 0.6774

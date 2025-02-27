@@ -1,0 +1,56 @@
+Period: 2000_2003
+R² Score: 0.6774
+RMSE: 0.0130
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.6315
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0400
+• prfi: 0.1995
+• population: 0.0108
+• dpi: 0.0932
+• unemployment: 0.1528
+• mortgage: 0.2371
+• mspus: 0.0526
+• cpi: 0.0044
+• ppi: 0.1144
+• gdp: 0.2488
+
+component_2:
+Explained Variance: 0.2785
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0602
+• prfi: 0.1996
+• population: 0.0904
+• dpi: 0.0953
+• unemployment: 0.1540
+• mortgage: 0.2394
+• mspus: 0.0732
+• cpi: 0.1352
+• ppi: 0.1712
+• gdp: 0.2531
+
+component_3:
+Explained Variance: 0.0900
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0657
+• prfi: 0.2053
+• population: 0.0953
+• dpi: 0.1034
+• unemployment: 0.1585
+• mortgage: 0.2422
+• mspus: 0.0895
+• cpi: 0.1464
+• ppi: 0.1799
+• gdp: 0.2550

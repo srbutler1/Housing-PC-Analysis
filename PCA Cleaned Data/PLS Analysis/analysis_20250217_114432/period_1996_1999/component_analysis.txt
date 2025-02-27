@@ -1,0 +1,47 @@
+Period: 1996_1999
+
+Component Analysis:
+
+Component 1:
+
+Loadings:
+• housing_starts: -0.1533
+• prfi: -0.0656
+• population: 0.4170
+• dpi: -0.6270
+• unemployment: 0.0472
+• mortgage: 0.5084
+• mspus: -0.1505
+• cpi: 0.2131
+• ppi: 0.3683
+• gdp: 0.3441
+
+Component 2:
+
+Loadings:
+• housing_starts: 0.3250
+• prfi: -0.5126
+• population: 0.1716
+• dpi: 0.3797
+• unemployment: -0.4579
+• mortgage: -0.1175
+• mspus: 0.2061
+• cpi: -0.2625
+• ppi: -0.5242
+• gdp: 0.3560
+
+Component 3:
+
+Loadings:
+• housing_starts: -0.2628
+• prfi: -0.2288
+• population: -0.4355
+• dpi: 0.1226
+• unemployment: 0.0946
+• mortgage: 0.2335
+• mspus: 0.2599
+• cpi: 0.6713
+• ppi: 0.3460
+• gdp: -0.4398
+
+Regression Coefficients:

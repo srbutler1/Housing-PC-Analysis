@@ -1,0 +1,56 @@
+Period: 2004_2007
+R² Score: 0.7530
+RMSE: 0.0261
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.6007
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.1000
+• prfi: 0.1565
+• population: 0.1617
+• dpi: 0.0557
+• unemployment: 0.0225
+• mortgage: 0.1762
+• mspus: 0.1688
+• cpi: 0.0588
+• ppi: 0.0900
+• gdp: 0.0844
+
+component_2:
+Explained Variance: 0.3128
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.1171
+• prfi: 0.1581
+• population: 0.1621
+• dpi: 0.1037
+• unemployment: 0.1564
+• mortgage: 0.2248
+• mspus: 0.1699
+• cpi: 0.0864
+• ppi: 0.1132
+• gdp: 0.1265
+
+component_3:
+Explained Variance: 0.0864
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.1207
+• prfi: 0.2107
+• population: 0.1670
+• dpi: 0.1042
+• unemployment: 0.1687
+• mortgage: 0.2265
+• mspus: 0.1793
+• cpi: 0.0896
+• ppi: 0.1232
+• gdp: 0.1271

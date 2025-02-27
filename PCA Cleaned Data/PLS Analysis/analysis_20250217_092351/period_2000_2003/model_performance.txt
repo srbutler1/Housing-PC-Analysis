@@ -1,0 +1,17 @@
+Period: 2000_2003
+R² Score: 0.6774
+RMSE: 0.0130
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2776
+Significant Factors:
+
+component_2:
+Explained Variance: 0.1769
+Significant Factors:
+
+component_3:
+Explained Variance: 0.0712
+Significant Factors:

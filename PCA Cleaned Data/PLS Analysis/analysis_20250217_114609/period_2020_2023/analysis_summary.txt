@@ -1,0 +1,32 @@
+Analysis Summary for Period: 2020_2023
+==================================================
+
+Component Loadings:
+--------------------
+                Component 1  Component 2  Component 3
+housing_starts    -0.221380     0.119918     0.642373
+prfi              -0.488456     0.368836     0.042333
+population         0.632203     0.167322     0.096750
+dpi               -0.012452    -0.405002     0.427693
+unemployment       0.126935    -0.544327     0.154070
+mortgage           0.410537     0.216903    -0.256966
+mspus             -0.242324     0.261890    -0.679701
+cpi               -0.134958     0.287410    -0.241671
+ppi               -0.409031     0.268472     0.036848
+gdp               -0.144719     0.570127    -0.074157
+
+Regression Coefficients:
+--------------------
+                Coefficient
+housing_starts     0.128990
+prfi              -0.166590
+population         0.661459
+dpi                0.114759
+unemployment      -0.145553
+mortgage           0.339467
+mspus             -0.315106
+cpi                0.045298
+ppi               -0.027966
+gdp                0.163779
+
+R-squared: 0.9409

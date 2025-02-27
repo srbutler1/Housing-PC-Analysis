@@ -1,0 +1,310 @@
+PLS Regression Analysis Summary
+==============================
+
+
+Period: 1996_1999
+=================
+
+Model Performance:
+R² Score: 0.9765
+RMSE: 0.0049
+
+Components Used:
+Supply: 4 components
+Demand: 4 components
+Market: 2 components
+
+Component Influence Analysis:
+
+Supply Components:
+------------------
+• PC1 improves affordability (coef: 0.0096)
+• PC4 reduces affordability (coef: -0.0073)
+• PC3 improves affordability (coef: 0.0069)
+• PC2 reduces affordability (coef: -0.0025)
+
+Demand Components:
+------------------
+• PC1 improves affordability (coef: 0.0096)
+• PC4 reduces affordability (coef: -0.0073)
+• PC3 improves affordability (coef: 0.0069)
+• PC2 reduces affordability (coef: -0.0025)
+
+Market Components:
+------------------
+• PC1 improves affordability (coef: 0.0096)
+• PC2 reduces affordability (coef: -0.0025)
+
+Period: 2000_2003
+=================
+
+Model Performance:
+R² Score: 0.8483
+RMSE: 0.0089
+
+Components Used:
+Supply: 4 components
+Demand: 4 components
+Market: 2 components
+
+Component Influence Analysis:
+
+Supply Components:
+------------------
+• PC2 improves affordability (coef: 0.0087)
+• PC3 improves affordability (coef: 0.0074)
+• PC1 improves affordability (coef: 0.0072)
+• PC4 reduces affordability (coef: -0.0011)
+
+Demand Components:
+------------------
+• PC2 improves affordability (coef: 0.0087)
+• PC3 improves affordability (coef: 0.0074)
+• PC1 improves affordability (coef: 0.0072)
+• PC4 reduces affordability (coef: -0.0011)
+
+Market Components:
+------------------
+• PC2 improves affordability (coef: 0.0087)
+• PC1 improves affordability (coef: 0.0072)
+
+Period: 2004_2007
+=================
+
+Model Performance:
+R² Score: 0.8355
+RMSE: 0.0220
+
+Components Used:
+Supply: 4 components
+Demand: 4 components
+Market: 2 components
+
+Component Influence Analysis:
+
+Supply Components:
+------------------
+• PC3 improves affordability (coef: 0.0391)
+• PC2 improves affordability (coef: 0.0227)
+• PC4 improves affordability (coef: 0.0178)
+• PC1 reduces affordability (coef: -0.0135)
+
+Demand Components:
+------------------
+• PC3 improves affordability (coef: 0.0391)
+• PC2 improves affordability (coef: 0.0227)
+• PC4 improves affordability (coef: 0.0178)
+• PC1 reduces affordability (coef: -0.0135)
+
+Market Components:
+------------------
+• PC2 improves affordability (coef: 0.0227)
+• PC1 reduces affordability (coef: -0.0135)
+
+Period: 2008_2011
+=================
+
+Model Performance:
+R² Score: 0.7582
+RMSE: 0.0389
+
+Components Used:
+Supply: 4 components
+Demand: 4 components
+Market: 2 components
+
+Component Influence Analysis:
+
+Supply Components:
+------------------
+• PC1 reduces affordability (coef: -0.0290)
+• PC4 reduces affordability (coef: -0.0257)
+• PC2 reduces affordability (coef: -0.0252)
+• PC3 improves affordability (coef: 0.0220)
+
+Demand Components:
+------------------
+• PC1 reduces affordability (coef: -0.0290)
+• PC4 reduces affordability (coef: -0.0257)
+• PC2 reduces affordability (coef: -0.0252)
+• PC3 improves affordability (coef: 0.0220)
+
+Market Components:
+------------------
+• PC1 reduces affordability (coef: -0.0290)
+• PC2 reduces affordability (coef: -0.0252)
+
+Period: 2012_2015
+=================
+
+Model Performance:
+R² Score: 0.9108
+RMSE: 0.0099
+
+Components Used:
+Supply: 4 components
+Demand: 4 components
+Market: 2 components
+
+Component Influence Analysis:
+
+Supply Components:
+------------------
+• PC2 reduces affordability (coef: -0.0181)
+• PC1 reduces affordability (coef: -0.0154)
+• PC4 improves affordability (coef: 0.0111)
+• PC3 reduces affordability (coef: -0.0007)
+
+Demand Components:
+------------------
+• PC2 reduces affordability (coef: -0.0181)
+• PC1 reduces affordability (coef: -0.0154)
+• PC4 improves affordability (coef: 0.0111)
+• PC3 reduces affordability (coef: -0.0007)
+
+Market Components:
+------------------
+• PC2 reduces affordability (coef: -0.0181)
+• PC1 reduces affordability (coef: -0.0154)
+
+Period: 2016_2019
+=================
+
+Model Performance:
+R² Score: 0.9379
+RMSE: 0.0090
+
+Components Used:
+Supply: 4 components
+Demand: 4 components
+Market: 2 components
+
+Component Influence Analysis:
+
+Supply Components:
+------------------
+• PC1 reduces affordability (coef: -0.0219)
+• PC3 reduces affordability (coef: -0.0173)
+• PC4 reduces affordability (coef: -0.0138)
+• PC2 improves affordability (coef: 0.0036)
+
+Demand Components:
+------------------
+• PC1 reduces affordability (coef: -0.0219)
+• PC3 reduces affordability (coef: -0.0173)
+• PC4 reduces affordability (coef: -0.0138)
+• PC2 improves affordability (coef: 0.0036)
+
+Market Components:
+------------------
+• PC1 reduces affordability (coef: -0.0219)
+• PC2 improves affordability (coef: 0.0036)
+
+Period: 2020_2023
+=================
+
+Model Performance:
+R² Score: 0.9905
+RMSE: 0.0199
+
+Components Used:
+Supply: 4 components
+Demand: 4 components
+Market: 2 components
+
+Component Influence Analysis:
+
+Supply Components:
+------------------
+• PC1 reduces affordability (coef: -0.0681)
+• PC2 improves affordability (coef: 0.0509)
+• PC4 reduces affordability (coef: -0.0479)
+• PC3 reduces affordability (coef: -0.0317)
+
+Demand Components:
+------------------
+• PC1 reduces affordability (coef: -0.0681)
+• PC2 improves affordability (coef: 0.0509)
+• PC4 reduces affordability (coef: -0.0479)
+• PC3 reduces affordability (coef: -0.0317)
+
+Market Components:
+------------------
+• PC1 reduces affordability (coef: -0.0681)
+• PC2 improves affordability (coef: 0.0509)
+
+
+Temporal Analysis
+=================
+
+Pre-Financial Crisis (2004-2007):
+---------------------------------
+
+Period 2004_2007:
+R² Score: 0.8355
+
+Top Supply factors:
+• PC3 improves affordability (coef: 0.0391)
+• PC2 improves affordability (coef: 0.0227)
+
+Top Demand factors:
+• PC3 improves affordability (coef: 0.0391)
+• PC2 improves affordability (coef: 0.0227)
+
+Top Market factors:
+• PC2 improves affordability (coef: 0.0227)
+• PC1 reduces affordability (coef: -0.0135)
+
+Financial Crisis (2008-2011):
+-----------------------------
+
+Period 2008_2011:
+R² Score: 0.7582
+
+Top Supply factors:
+• PC1 reduces affordability (coef: -0.0290)
+• PC4 reduces affordability (coef: -0.0257)
+
+Top Demand factors:
+• PC1 reduces affordability (coef: -0.0290)
+• PC4 reduces affordability (coef: -0.0257)
+
+Top Market factors:
+• PC1 reduces affordability (coef: -0.0290)
+• PC2 reduces affordability (coef: -0.0252)
+
+Post-Crisis Recovery (2012-2015):
+---------------------------------
+
+Period 2012_2015:
+R² Score: 0.9108
+
+Top Supply factors:
+• PC2 reduces affordability (coef: -0.0181)
+• PC1 reduces affordability (coef: -0.0154)
+
+Top Demand factors:
+• PC2 reduces affordability (coef: -0.0181)
+• PC1 reduces affordability (coef: -0.0154)
+
+Top Market factors:
+• PC2 reduces affordability (coef: -0.0181)
+• PC1 reduces affordability (coef: -0.0154)
+
+Recent Period (2020-2023):
+--------------------------
+
+Period 2020_2023:
+R² Score: 0.9905
+
+Top Supply factors:
+• PC1 reduces affordability (coef: -0.0681)
+• PC2 improves affordability (coef: 0.0509)
+
+Top Demand factors:
+• PC1 reduces affordability (coef: -0.0681)
+• PC2 improves affordability (coef: 0.0509)
+
+Top Market factors:
+• PC1 reduces affordability (coef: -0.0681)
+• PC2 improves affordability (coef: 0.0509)

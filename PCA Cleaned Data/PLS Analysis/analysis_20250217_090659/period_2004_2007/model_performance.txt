@@ -1,0 +1,26 @@
+Period: 2004_2007
+R² Score: -501.7337
+RMSE: 1.1759
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3912
+Significant Factors:
+• Housing Starts: -0.5012
+• House Prices: -0.5914
+• PRFI: -0.6624
+
+component_2:
+Explained Variance: 0.5378
+Significant Factors:
+• Housing Starts: 0.5173
+• PRFI: 0.6794
+• Mortgage Rate: 0.6117
+
+component_3:
+Explained Variance: 0.6186
+Significant Factors:
+• House Prices: 0.7496
+• PRFI: -0.5278
+• CPI: 0.3711

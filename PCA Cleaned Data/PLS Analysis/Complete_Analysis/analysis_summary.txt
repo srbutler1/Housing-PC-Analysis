@@ -1,0 +1,44 @@
+PLS Regression Analysis Summary
+============================
+
+Model Performance:
+----------------
+R-squared: 0.4001
+
+Component Analysis:
+-----------------
+
+Component 1 - Supply Factors:
+Significant loadings (|loading| > 0.4):
+• MORTGAGE_NORMALIZED: +0.5465
+• STARTS_NORMALIZED: -0.5139
+• PRFI_NORMALIZED: -0.4081
+• POP_NORMALIZED: +0.4038
+
+Component 2 - Economic Development:
+Significant loadings (|loading| > 0.4):
+• STARTS_NORMALIZED: +0.6046
+• PPI_NORMALIZED: -0.5819
+• POP_NORMALIZED: +0.5144
+• CPI_NORMALIZED: -0.4043
+
+Component 3 - Financial and Monetary:
+Significant loadings (|loading| > 0.4):
+• POP_NORMALIZED: -0.7275
+• CPI_NORMALIZED: +0.5896
+• PPI_NORMALIZED: +0.5504
+
+Regression Analysis:
+------------------
+
+Most influential factors (by coefficient magnitude):
+• PRFI_NORMALIZED: -0.0634
+• GDP_NORMALIZED: +0.0529
+• MORTGAGE_NORMALIZED: +0.0519
+• POP_NORMALIZED: +0.0274
+• CPI_NORMALIZED: +0.0211
+• DPI_NORMALIZED: +0.0148
+• UNEMPLOYMENT_NORMALIZED: +0.0124
+• PPI_NORMALIZED: -0.0075
+• MSPUS_NORMALIZED: -0.0052
+• STARTS_NORMALIZED: -0.0004

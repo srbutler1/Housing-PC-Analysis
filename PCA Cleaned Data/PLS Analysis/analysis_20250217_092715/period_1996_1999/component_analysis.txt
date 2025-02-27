@@ -1,0 +1,56 @@
+Period: 1996_1999
+R² Score: 0.7740
+RMSE: 0.0175
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.4064
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0372
+• prfi: 0.1154
+• population: 0.1911
+• dpi: 0.1712
+• unemployment: 0.0540
+• mortgage: 0.2079
+• mspus: 0.0111
+• cpi: 0.1135
+• ppi: 0.0922
+• gdp: 0.1834
+
+component_2:
+Explained Variance: 0.2667
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0509
+• prfi: 0.1580
+• population: 0.1918
+• dpi: 0.2083
+• unemployment: 0.1063
+• mortgage: 0.2082
+• mspus: 0.0665
+• cpi: 0.1169
+• ppi: 0.1221
+• gdp: 0.1889
+
+component_3:
+Explained Variance: 0.3269
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0611
+• prfi: 0.1580
+• population: 0.1928
+• dpi: 0.2106
+• unemployment: 0.1067
+• mortgage: 0.2087
+• mspus: 0.0689
+• cpi: 0.1405
+• ppi: 0.1264
+• gdp: 0.1913

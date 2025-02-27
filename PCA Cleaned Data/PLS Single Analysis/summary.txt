@@ -1,0 +1,171 @@
+# Housing Affordability Analysis Summary
+
+## 1. Variables Used
+
+| Variable | Description | Source |
+|----------|-------------|---------|
+| Housing Starts | New residential construction starts | Federal Reserve |
+| PRFI | Private Residential Fixed Investment | Federal Reserve |
+| Vacancy Rate | Housing vacancy rate | Census Bureau |
+| Population | US population | Census Bureau |
+| DPI | Disposable Personal Income | Federal Reserve |
+| Unemployment | Unemployment rate | Bureau of Labor Statistics |
+| Mortgage Rate | 30-year fixed mortgage rate | Federal Reserve |
+| MSPUS | Median Sales Price of Houses | Census Bureau |
+| CPI | Consumer Price Index | Bureau of Labor Statistics |
+| PPI | Producer Price Index | Bureau of Labor Statistics |
+| GDP | Gross Domestic Product | Bureau of Economic Analysis |
+
+## 2. Data Normalization
+
+All variables were normalized using max absolute value scaling to preserve the sign of changes:
+
+\[
+x_i\_normalized = \frac{Δx_i}{\max(|Δx_i|)}
+\]
+
+where:
+- Δx_i is the change in variable i
+- max(|Δx_i|) is the maximum absolute change observed
+
+This normalization method:
+- Preserves the direction of change
+- Bounds values between -1 and 1
+- Maintains relative magnitudes of changes
+
+## 3. Methodology
+
+### Partial Least Squares (PLS) Regression
+- Used to identify key components driving housing affordability
+- Selected 2 components based on RVI (Relative Variable Importance) stabilization
+- Model R² = 0.3913 (explains 39.13% of variance in housing affordability)
+
+### Component Calculation
+Component scores for each time period t are calculated as:
+\[
+Score_{t,k} = \sum_{i=1}^n (x_{t,i} × w_{k,i})
+\]
+where:
+- x_{t,i} is the normalized value of variable i at time t
+- w_{k,i} is the loading of variable i on component k
+
+## 4. Results
+
+### Component 1: Housing Market Dynamics
+Significant loadings (|loading| > 0.35):
+- Mortgage rates (+0.4801)
+- Housing starts (-0.4693)
+- PRFI (-0.4496)
+- Vacancy (+0.3810)
+- Population (+0.3664)
+
+### Component 2: Economic Conditions
+Significant loadings (|loading| > 0.35):
+- GDP (+0.7597)
+- Housing starts (+0.6682)
+- PRFI (+0.5933)
+- Unemployment (-0.5834)
+- Mortgage (+0.4817)
+- MSPUS (+0.4247)
+- PPI (+0.3726)
+
+### Time Period Analysis
+
+#### 1996-2000
+- Average HAI: 0.88
+- Component 1: +0.3944 (reduced affordability)
+- Component 2: +0.2948 (reduced affordability)
+- Top contributing variables:
+  - Mortgage: +0.4801
+  - Housing starts: -0.4693
+  - PRFI: -0.4496
+- Top contributing variables:
+  - GDP: +0.7597
+  - Housing starts: +0.6682
+  - PRFI: +0.5933
+
+#### 2001-2006
+- Average HAI: 1.01
+- Component 1: +0.1276 (slightly reduced affordability)
+- Component 2: -0.0166 (neutral)
+- Top contributing variables:
+  - Mortgage: +0.4801
+  - Housing starts: -0.4693
+  - PRFI: -0.4496
+- Top contributing variables:
+  - GDP: +0.7597
+  - Housing starts: +0.6682
+  - PRFI: +0.5933
+
+#### 2007-2012 (Financial Crisis)
+- Average HAI: 0.87
+- Component 1: +0.1736 (slightly reduced affordability)
+- Component 2: -0.5486 (improved affordability)
+- Top contributing variables:
+  - Mortgage: +0.4801
+  - Housing starts: -0.4693
+  - PRFI: -0.4496
+- Top contributing variables:
+  - GDP: +0.7597
+  - Housing starts: +0.6682
+  - PRFI: +0.5933
+
+#### 2013-2018
+- Average HAI: 0.80
+- Component 1: -0.3967 (improved affordability)
+- Component 2: -0.0349 (neutral)
+- Top contributing variables:
+  - Mortgage: +0.4801
+  - Housing starts: -0.4693
+  - PRFI: -0.4496
+- Top contributing variables:
+  - GDP: +0.7597
+  - Housing starts: +0.6682
+  - PRFI: +0.5933
+
+#### 2019-2023
+- Average HAI: 0.99
+- Component 1: -0.2798 (improved affordability)
+- Component 2: +0.4253 (reduced affordability)
+- Top contributing variables:
+  - Mortgage: +0.4801
+  - Housing starts: -0.4693
+  - PRFI: -0.4496
+- Top contributing variables:
+  - GDP: +0.7597
+  - Housing starts: +0.6682
+  - PRFI: +0.5933
+
+## 5. Current State (Early 2023)
+
+The most recent data shows:
+1. Housing Market Component (1):
+   - Moderating from peak pressure (+3.08 in 2022-Q2)
+   - Current score: +0.56 (Q1 2023)
+   - Indicates easing but still negative pressure on affordability
+
+2. Economic Component (2):
+   - Stabilizing near neutral
+   - Current score: -0.01 (Q1 2023)
+   - Suggests economic pressures on affordability are balancing
+
+## 6. Conclusion
+
+The analysis reveals:
+1. Housing affordability is driven by two main components:
+   - Housing market conditions (mortgage rates, starts, investment)
+   - Broader economic factors (GDP, employment, prices)
+
+2. The 2022 affordability crisis was unique in showing strong positive scores in both components:
+   - Housing market pressures (high mortgage rates, low starts)
+   - Economic pressures (strong GDP, low unemployment)
+
+3. Early 2023 data suggests potential stabilization:
+   - Housing market pressures moderating
+   - Economic factors reaching equilibrium
+   - However, overall affordability remains challenged
+
+4. Model performance (R² = 0.3913) indicates:
+   - Reasonable explanatory power for housing economics
+   - Complex nature of housing affordability
+   - Potential for additional factors not captured in current variables

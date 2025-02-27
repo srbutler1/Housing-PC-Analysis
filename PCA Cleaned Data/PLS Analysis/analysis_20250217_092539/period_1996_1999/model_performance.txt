@@ -1,0 +1,17 @@
+Period: 1996_1999
+R² Score: 0.7740
+RMSE: 0.0175
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.4064
+Significant Factors:
+
+component_2:
+Explained Variance: 0.2667
+Significant Factors:
+
+component_3:
+Explained Variance: 0.3269
+Significant Factors:

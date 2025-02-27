@@ -1,0 +1,80 @@
+
+    <style>
+        .component-table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        .component-table th {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .component-table td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+            line-height: 1.4;
+        }
+        .component-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .table-caption {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+    </style>
+    <div class="table-caption">Table 3: Principal Components Analysis Results - PC1 and PC2 (1996-2022)</div>
+    <table border="1" class="dataframe component-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Period</th>
+      <th>PC1 Components (Variance)</th>
+      <th>PC2 Components (Variance)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1996-1999</td>
+      <td>GDP (0.349), Population (0.348), Investment (0.348), Housing Prices (0.342), Income (0.341) [62.35%]</td>
+      <td>Mortgage Rates (0.607), Construction Price Changes (0.220) [14.71%]</td>
+    </tr>
+    <tr>
+      <td>2000-2003</td>
+      <td>Population (0.327), Investment (0.325), GDP (0.325), Housing Prices (0.313), Housing Starts (0.310) [69.56%]</td>
+      <td>Construction Prices (0.480), Income (0.291), Mortgage Rates (0.236) [14.61%]</td>
+    </tr>
+    <tr>
+      <td>2004-2007</td>
+      <td>Construction Prices (0.348), GDP (0.347), Population (0.346), Price Changes (0.332), Unemployment (0.329) [61.87%]</td>
+      <td>Investment (0.573), Housing Starts (0.366), Housing Prices (0.285) [19.79%]</td>
+    </tr>
+    <tr>
+      <td>2008-2011</td>
+      <td>Population (0.376), Income (0.364), Mortgage Rates (0.361), Investment (0.350), Unemployment (0.325) [50.92%]</td>
+      <td>CPI (0.443), GDP (0.426), Housing Prices (0.407), Construction Prices (0.359) [22.87%]</td>
+    </tr>
+    <tr>
+      <td>2012-2015</td>
+      <td>Population (0.375), GDP (0.375), Unemployment (0.373), Investment (0.373), Housing Prices (0.367) [54.39%]</td>
+      <td>Mortgage Rates (0.570), Price Changes (0.481), Construction Prices (0.310) [17.47%]</td>
+    </tr>
+    <tr>
+      <td>2016-2019</td>
+      <td>Unemployment (0.364), Population (0.361), Investment (0.360), Construction Prices (0.359), GDP (0.357) [56.91%]</td>
+      <td>Mortgage Rates (0.525), Housing Starts (0.209) [16.21%]</td>
+    </tr>
+    <tr>
+      <td>2020-2022</td>
+      <td>Construction Prices (0.349), Housing Prices (0.347), GDP (0.344), CPI (0.335), Population (0.333) [61.95%]</td>
+      <td>Housing Starts (0.550), Income (0.442), Mortgage Rates (0.323) [22.89%]</td>
+    </tr>
+  </tbody>
+</table>

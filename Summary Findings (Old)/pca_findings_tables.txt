@@ -1,0 +1,86 @@
+Table 1. Evolution of Principal Components' Explanatory Power (1996-2022)
+─────────────────────────────────────────────────────────────────────────
+Period          PC1 (%)     PC2 (%)     PC3 (%)     Cumulative (%)
+─────────────────────────────────────────────────────────────────────────
+1996-1999       62.35       14.71       11.74       88.80
+2000-2003       69.56       14.61        6.83       91.00
+2004-2007       61.87       19.79        8.18       89.84
+2008-2011       50.92       22.87       13.21       87.00
+2012-2015       54.39       17.47        9.24       81.10
+2016-2019       56.91       16.21       11.86       84.98
+2020-2022       61.95       22.89        6.39       91.23
+─────────────────────────────────────────────────────────────────────────
+
+Table 2. Principal Component Interpretations by Period
+────────────────────────────────────────────────────────────────────────────────────────────────
+Period          PC1                     PC2                     PC3
+────────────────────────────────────────────────────────────────────────────────────────────────
+1996-1999       Economic Growth         Financial Conditions    Market Activity
+2000-2003       Market Size             Cost                    Inflation
+2004-2007       Cost Pressure           Supply                  Financial
+2008-2011       Household               Price                   Market Activity
+2012-2015       Economic Recovery       Financial               Cost
+2016-2019       Market Health           Financial               Price
+2020-2022       Price Pressure          Supply/Income           Market Activity
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+Table 3. Top Factor Loadings by Component (Selected Periods)
+────────────────────────────────────────────────────────────────────────────────────────────────
+Period     Component     Top Factors (Loading Values)
+────────────────────────────────────────────────────────────────────────────────────────────────
+1996-1999  PC1          GDP (0.349), Population (0.348), Investment (0.348)
+           PC2          Mortgage Rates (0.607), Construction Price Changes (0.220)
+           PC3          Price Changes (0.737), Housing Starts (0.264)
+
+2008-2011  PC1          Population (0.376), Income (0.364), Mortgage Rates (0.361)
+(Crisis)   PC2          CPI (0.443), GDP (0.426), Housing Prices (0.407)
+           PC3          Price Changes (0.605), Housing Starts (0.305)
+
+2020-2022  PC1          Construction Prices (0.349), Housing Prices (0.347), GDP (0.344)
+(Pandemic) PC2          Housing Starts (0.550), Income (0.442), Mortgage Rates (0.323)
+           PC3          Income (0.496), Unemployment (0.314), Housing Starts (0.231)
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+Table 4. Key Structural Changes in Housing Market Determinants
+────────────────────────────────────────────────────────────────────────────────────────────────
+Period          Primary Drivers                 Notable Changes
+────────────────────────────────────────────────────────────────────────────────────────────────
+Pre-2008        Market fundamentals             • GDP and population dominated PC1
+                                               • Traditional financial factors in PC2
+                                               • Clear separation of components
+
+2008-2011       Population and income           • Lowest PC1 explanatory power (50.92%)
+Crisis                                         • Increased importance of price factors
+                                               • Higher dispersion across components
+
+Post-2008       Balanced factor mix             • Return to fundamentals but with new emphasis
+Recovery                                        • Construction prices gained importance
+                                               • More complex interplay of factors
+
+2020-2022       Construction and prices         • High concentration in first two components
+Pandemic                                        • Strong supply-side influence
+                                               • Unique income-supply relationship
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+Key Findings:
+
+1. Component Evolution:
+   - PC1 shifted from pure economic factors to include price/cost considerations
+   - PC2 maintained focus on financial conditions but adapted during crises
+   - PC3 consistently captured market dynamics and price changes
+
+2. Crisis Impact:
+   - 2008-2011 showed unique dispersion of variance across components
+   - Pandemic period demonstrated high concentration in first two components
+   - Both crises elevated the importance of income factors
+
+3. Recent Trends:
+   - Construction prices gained prominence in factor loadings
+   - Supply-side factors became more influential
+   - More complex interplay between traditional economic and market-specific factors
+
+4. Structural Changes:
+   - Evolution from simple economic fundamentals to complex factor interactions
+   - Increased importance of supply-side constraints
+   - Growing influence of construction costs and housing prices
+   - More prominent role of income during crisis periods

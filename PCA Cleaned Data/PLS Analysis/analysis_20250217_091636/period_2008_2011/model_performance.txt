@@ -1,0 +1,25 @@
+Period: 2008_2011
+R² Score: -127.4392
+RMSE: 0.9381
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3088
+Significant Factors:
+• Supply_housing_starts: -0.6903
+• Supply_prfi: -0.6480
+
+component_2:
+Explained Variance: 0.5905
+Significant Factors:
+• Market_mortgage: 0.4277
+• Market_cpi: 0.7998
+• Market_ppi: 0.5323
+
+component_3:
+Explained Variance: 0.6831
+Significant Factors:
+• Supply_housing_starts: -0.3868
+• Market_mortgage: 0.5803
+• Market_cpi: -0.9017

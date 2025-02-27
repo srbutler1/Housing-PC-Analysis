@@ -1,0 +1,26 @@
+Period: 2020_2023
+R² Score: -80.8385
+RMSE: 1.9037
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.1667
+Significant Factors:
+• Demand_population: 0.7315
+• Market_ppi: -0.6079
+
+component_2:
+Explained Variance: 0.5393
+Significant Factors:
+• Demand_dpi: -0.4511
+• Demand_unemployment: -0.7299
+• Market_ppi: 0.4658
+• Market_gdp: 0.7275
+
+component_3:
+Explained Variance: 0.7570
+Significant Factors:
+• Demand_dpi: 0.6200
+• Demand_unemployment: 0.5817
+• Market_gdp: -0.4395

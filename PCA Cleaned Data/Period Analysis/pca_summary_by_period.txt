@@ -1,0 +1,487 @@
+PCA Analysis Summary by Period and Factor Group
+==========================================
+
+Following E3S paper methodology:
+- Supply Factors (4 variables): Housing Starts, House Prices, PRFI, PPI
+- Demand Factors (4 variables): Population, DPI, Mortgage Rate, GDP
+- Market Environment (2 variables): Unemployment, CPI
+
+Analysis shows components needed to explain 90% variance in each group.
+Significant loadings are those >= |0.3|
+
+
+Period: 1996_1999
+=================
+
+Supply Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.4166 (0.4166 cumulative)
+PC2: 0.3500 (0.7666 cumulative)
+PC3: 0.1669 (0.9335 cumulative)
+PC4: 0.0665 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Housing Starts (0.857)
+  House Prices (-0.326)
+  PPI (-0.325)
+
+PC2:
+  Housing Starts (0.367)
+  House Prices (0.930)
+
+PC3:
+  PRFI (0.550)
+  PPI (0.821)
+
+==================================================
+
+Demand Factors:
+--------------
+Number of components needed for 90% variance: 2
+Explained Variance Ratio:
+PC1: 0.7405 (0.7405 cumulative)
+PC2: 0.1884 (0.9290 cumulative)
+PC3: 0.0401 (0.9691 cumulative)
+PC4: 0.0309 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Mortgage Rate (0.995)
+
+PC2:
+  Population (0.957)
+
+==================================================
+
+Market Environment:
+------------------
+Number of components needed for 90% variance: 1
+Explained Variance Ratio:
+PC1: 0.9333 (0.9333 cumulative)
+PC2: 0.0667 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  CPI (0.996)
+
+==================================================
+
+
+Period: 2000_2003
+=================
+
+Supply Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.7024 (0.7024 cumulative)
+PC2: 0.1679 (0.8703 cumulative)
+PC3: 0.0965 (0.9668 cumulative)
+PC4: 0.0332 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  House Prices (0.986)
+
+PC2:
+  Housing Starts (0.385)
+  PRFI (0.606)
+  PPI (0.680)
+
+PC3:
+  Housing Starts (0.912)
+  PRFI (-0.323)
+
+==================================================
+
+Demand Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.6742 (0.6742 cumulative)
+PC2: 0.1679 (0.8421 cumulative)
+PC3: 0.0879 (0.9300 cumulative)
+PC4: 0.0700 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Mortgage Rate (0.924)
+
+PC2:
+  DPI (0.890)
+  GDP (-0.396)
+
+PC3:
+  DPI (0.328)
+  Mortgage Rate (-0.362)
+  GDP (0.871)
+
+==================================================
+
+Market Environment:
+------------------
+Number of components needed for 90% variance: 1
+Explained Variance Ratio:
+PC1: 0.9320 (0.9320 cumulative)
+PC2: 0.0680 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  CPI (0.997)
+
+==================================================
+
+
+Period: 2004_2007
+=================
+
+Supply Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.6134 (0.6134 cumulative)
+PC2: 0.2380 (0.8514 cumulative)
+PC3: 0.1172 (0.9686 cumulative)
+PC4: 0.0314 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Housing Starts (0.440)
+  House Prices (0.576)
+  PRFI (0.672)
+
+PC2:
+  Housing Starts (-0.350)
+  House Prices (0.813)
+  PRFI (-0.424)
+
+PC3:
+  Housing Starts (0.742)
+  PRFI (-0.356)
+  PPI (-0.568)
+
+==================================================
+
+Demand Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.6546 (0.6546 cumulative)
+PC2: 0.1518 (0.8064 cumulative)
+PC3: 0.1440 (0.9504 cumulative)
+PC4: 0.0496 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Mortgage Rate (0.998)
+
+PC2:
+  Population (0.911)
+  GDP (-0.328)
+
+PC3:
+  DPI (0.954)
+
+==================================================
+
+Market Environment:
+------------------
+Number of components needed for 90% variance: 1
+Explained Variance Ratio:
+PC1: 0.9869 (0.9869 cumulative)
+PC2: 0.0131 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  CPI (1.000)
+
+==================================================
+
+
+Period: 2008_2011
+=================
+
+Supply Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.5345 (0.5345 cumulative)
+PC2: 0.2800 (0.8144 cumulative)
+PC3: 0.1235 (0.9380 cumulative)
+PC4: 0.0620 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Housing Starts (0.886)
+  House Prices (0.326)
+  PRFI (0.323)
+
+PC2:
+  PRFI (0.895)
+
+PC3:
+  House Prices (0.401)
+  PPI (0.873)
+
+==================================================
+
+Demand Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.5705 (0.5705 cumulative)
+PC2: 0.2291 (0.7996 cumulative)
+PC3: 0.1583 (0.9579 cumulative)
+PC4: 0.0421 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Mortgage Rate (0.893)
+  GDP (0.450)
+
+PC2:
+  Mortgage Rate (-0.428)
+  GDP (0.852)
+
+PC3:
+  Population (-0.345)
+  DPI (0.890)
+
+==================================================
+
+Market Environment:
+------------------
+Number of components needed for 90% variance: 1
+Explained Variance Ratio:
+PC1: 0.9045 (0.9045 cumulative)
+PC2: 0.0955 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  CPI (0.998)
+
+==================================================
+
+
+Period: 2012_2015
+=================
+
+Supply Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.4040 (0.4040 cumulative)
+PC2: 0.3616 (0.7656 cumulative)
+PC3: 0.1830 (0.9486 cumulative)
+PC4: 0.0514 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Housing Starts (-0.576)
+  House Prices (0.738)
+
+PC2:
+  Housing Starts (0.736)
+  House Prices (0.649)
+
+PC3:
+  Housing Starts (0.317)
+  PPI (0.944)
+
+==================================================
+
+Demand Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.5061 (0.5061 cumulative)
+PC2: 0.3122 (0.8183 cumulative)
+PC3: 0.1072 (0.9254 cumulative)
+PC4: 0.0746 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  DPI (0.737)
+  Mortgage Rate (-0.665)
+
+PC2:
+  DPI (0.641)
+  Mortgage Rate (0.731)
+
+PC3:
+  Population (0.367)
+  GDP (0.925)
+
+==================================================
+
+Market Environment:
+------------------
+Number of components needed for 90% variance: 1
+Explained Variance Ratio:
+PC1: 0.9837 (0.9837 cumulative)
+PC2: 0.0163 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  CPI (1.000)
+
+==================================================
+
+
+Period: 2016_2019
+=================
+
+Supply Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.4812 (0.4812 cumulative)
+PC2: 0.3470 (0.8282 cumulative)
+PC3: 0.1172 (0.9454 cumulative)
+PC4: 0.0546 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  House Prices (0.916)
+  PPI (-0.394)
+
+PC2:
+  Housing Starts (0.512)
+  House Prices (0.353)
+  PPI (0.762)
+
+PC3:
+  Housing Starts (0.857)
+  PPI (-0.476)
+
+==================================================
+
+Demand Factors:
+--------------
+Number of components needed for 90% variance: 2
+Explained Variance Ratio:
+PC1: 0.6563 (0.6563 cumulative)
+PC2: 0.2458 (0.9021 cumulative)
+PC3: 0.0680 (0.9701 cumulative)
+PC4: 0.0299 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Mortgage Rate (0.996)
+
+PC2:
+  Population (0.983)
+
+==================================================
+
+Market Environment:
+------------------
+Number of components needed for 90% variance: 1
+Explained Variance Ratio:
+PC1: 0.9744 (0.9744 cumulative)
+PC2: 0.0256 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  CPI (1.000)
+
+==================================================
+
+
+Period: 2020_2023
+=================
+
+Supply Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.5738 (0.5738 cumulative)
+PC2: 0.2428 (0.8166 cumulative)
+PC3: 0.1425 (0.9591 cumulative)
+PC4: 0.0409 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  PRFI (0.442)
+  PPI (0.860)
+
+PC2:
+  Housing Starts (0.717)
+  PRFI (0.589)
+  PPI (-0.372)
+
+PC3:
+  Housing Starts (-0.421)
+  House Prices (0.791)
+  PPI (-0.333)
+
+==================================================
+
+Demand Factors:
+--------------
+Number of components needed for 90% variance: 3
+Explained Variance Ratio:
+PC1: 0.5891 (0.5891 cumulative)
+PC2: 0.1846 (0.7738 cumulative)
+PC3: 0.1567 (0.9304 cumulative)
+PC4: 0.0696 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  DPI (0.716)
+  GDP (-0.684)
+
+PC2:
+  Population (-0.486)
+  DPI (0.416)
+  Mortgage Rate (-0.506)
+  GDP (0.579)
+
+PC3:
+  Population (0.346)
+  DPI (0.552)
+  Mortgage Rate (0.621)
+  GDP (0.436)
+
+==================================================
+
+Market Environment:
+------------------
+Number of components needed for 90% variance: 2
+Explained Variance Ratio:
+PC1: 0.8434 (0.8434 cumulative)
+PC2: 0.1566 (1.0000 cumulative)
+
+Significant Component Loadings (>= |0.3|):
+
+PC1:
+  Unemployment (0.990)
+
+PC2:
+  CPI (0.990)
+
+==================================================
+

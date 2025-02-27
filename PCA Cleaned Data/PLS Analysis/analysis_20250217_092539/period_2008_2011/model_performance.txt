@@ -1,0 +1,17 @@
+Period: 2008_2011
+R² Score: 0.7928
+RMSE: 0.0377
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3681
+Significant Factors:
+
+component_2:
+Explained Variance: 0.4379
+Significant Factors:
+
+component_3:
+Explained Variance: 0.1940
+Significant Factors:

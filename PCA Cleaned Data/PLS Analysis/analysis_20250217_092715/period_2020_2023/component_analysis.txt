@@ -1,0 +1,56 @@
+Period: 2020_2023
+R² Score: 0.9409
+RMSE: 0.0512
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3685
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0429
+• prfi: 0.1463
+• population: 0.2951
+• dpi: 0.0184
+• unemployment: 0.0196
+• mortgage: 0.1877
+• mspus: 0.0974
+• cpi: 0.0149
+• ppi: 0.1109
+• gdp: 0.0183
+
+component_2:
+Explained Variance: 0.4724
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0603
+• prfi: 0.1540
+• population: 0.2968
+• dpi: 0.0218
+• unemployment: 0.0663
+• mortgage: 0.1885
+• mspus: 0.0974
+• cpi: 0.0388
+• ppi: 0.1218
+• gdp: 0.0711
+
+component_3:
+Explained Variance: 0.1591
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.0754
+• prfi: 0.1540
+• population: 0.2972
+• dpi: 0.0767
+• unemployment: 0.0684
+• mortgage: 0.1897
+• mspus: 0.1130
+• cpi: 0.0391
+• ppi: 0.1243
+• gdp: 0.0724

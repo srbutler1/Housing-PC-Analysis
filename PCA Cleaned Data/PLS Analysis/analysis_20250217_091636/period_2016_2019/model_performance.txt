@@ -1,0 +1,28 @@
+Period: 2016_2019
+R² Score: -422.7539
+RMSE: 0.7998
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.1839
+Significant Factors:
+• Market_mortgage: 0.7903
+• Market_mspus: -0.4970
+
+component_2:
+Explained Variance: 0.3805
+Significant Factors:
+• Supply_housing_starts: -0.6719
+• Supply_prfi: -0.3588
+• Demand_population: 0.5996
+• Market_mspus: 1.0675
+• Market_cpi: -0.4904
+• Market_ppi: -0.5323
+
+component_3:
+Explained Variance: 0.5587
+Significant Factors:
+• Demand_population: -0.6428
+• Market_cpi: 0.4369
+• Market_ppi: 0.5416

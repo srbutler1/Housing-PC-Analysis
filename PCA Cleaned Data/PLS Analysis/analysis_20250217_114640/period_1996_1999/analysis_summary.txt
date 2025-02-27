@@ -1,0 +1,32 @@
+Analysis Summary for Period: 1996_1999
+==================================================
+
+Component Loadings:
+--------------------
+                Component 1  Component 2  Component 3
+housing_starts    -0.153262     0.325003    -0.262775
+prfi              -0.065569    -0.512608    -0.228802
+population         0.417041     0.171591    -0.435474
+dpi               -0.627049     0.379675     0.122631
+unemployment       0.047171    -0.457888     0.094566
+mortgage           0.508436    -0.117535     0.233535
+mspus             -0.150538     0.206125     0.259892
+cpi                0.213109    -0.262500     0.671284
+ppi                0.368341    -0.524183     0.345967
+gdp                0.344074     0.355993    -0.439832
+
+Regression Coefficients:
+--------------------
+                Coefficient
+housing_starts    -0.051029
+prfi              -0.458996
+population         0.379945
+dpi               -0.019826
+unemployment      -0.295572
+mortgage           0.406704
+mspus              0.154160
+cpi                0.413688
+ppi                0.056244
+gdp                0.411333
+
+R-squared: 0.7740

@@ -1,0 +1,95 @@
+{
+    "period": "2012_2015",
+    "r2": 0.9107645313468189,
+    "rmse": 0.009925489292843826,
+    "coefficients": {
+        "PC1": 0.014163827781064798,
+        "PC2": -0.024000138745425087,
+        "PC3": 0.009987610452579754,
+        "PC4": 0.018351000210287443
+    },
+    "n_components": {
+        "Supply": 4,
+        "Demand": 4,
+        "Market": 2
+    },
+    "actual": "                 HAI\n2012-01-01  0.720000\n2012-04-01  0.716667\n2013-01-01  0.696667\n2013-04-01  0.770000\n2014-01-01  0.783333\n2014-04-01  0.783333\n2015-01-01  0.746667\n2015-04-01  0.786667",
+    "predicted": {
+        "2012-01-01 00:00:00": 0.7454220039149827,
+        "2012-04-01 00:00:00": 0.7115836439818444,
+        "2013-01-01 00:00:00": 0.6926900354797819,
+        "2013-04-01 00:00:00": 0.7647252326143885,
+        "2014-01-01 00:00:00": 0.7856204629559154,
+        "2014-04-01 00:00:00": 0.7786776152858214,
+        "2015-01-01 00:00:00": 0.7442376396638459,
+        "2015-04-01 00:00:00": 0.7803766994367536
+    },
+    "group_analysis": {
+        "Supply": {
+            "PC1": {
+                "coefficient": -0.015351152272455513,
+                "impact": "reduces",
+                "magnitude": 0.015351152272455513,
+                "description": "PC1 reduces affordability (coef: -0.0154)"
+            },
+            "PC2": {
+                "coefficient": -0.01808107824963274,
+                "impact": "reduces",
+                "magnitude": 0.01808107824963274,
+                "description": "PC2 reduces affordability (coef: -0.0181)"
+            },
+            "PC3": {
+                "coefficient": -0.000741057693150038,
+                "impact": "reduces",
+                "magnitude": 0.000741057693150038,
+                "description": "PC3 reduces affordability (coef: -0.0007)"
+            },
+            "PC4": {
+                "coefficient": 0.011103852618692558,
+                "impact": "improves",
+                "magnitude": 0.011103852618692558,
+                "description": "PC4 improves affordability (coef: 0.0111)"
+            }
+        },
+        "Demand": {
+            "PC1": {
+                "coefficient": -0.015351152272455513,
+                "impact": "reduces",
+                "magnitude": 0.015351152272455513,
+                "description": "PC1 reduces affordability (coef: -0.0154)"
+            },
+            "PC2": {
+                "coefficient": -0.01808107824963274,
+                "impact": "reduces",
+                "magnitude": 0.01808107824963274,
+                "description": "PC2 reduces affordability (coef: -0.0181)"
+            },
+            "PC3": {
+                "coefficient": -0.000741057693150038,
+                "impact": "reduces",
+                "magnitude": 0.000741057693150038,
+                "description": "PC3 reduces affordability (coef: -0.0007)"
+            },
+            "PC4": {
+                "coefficient": 0.011103852618692558,
+                "impact": "improves",
+                "magnitude": 0.011103852618692558,
+                "description": "PC4 improves affordability (coef: 0.0111)"
+            }
+        },
+        "Market": {
+            "PC1": {
+                "coefficient": -0.015351152272455513,
+                "impact": "reduces",
+                "magnitude": 0.015351152272455513,
+                "description": "PC1 reduces affordability (coef: -0.0154)"
+            },
+            "PC2": {
+                "coefficient": -0.01808107824963274,
+                "impact": "reduces",
+                "magnitude": 0.01808107824963274,
+                "description": "PC2 reduces affordability (coef: -0.0181)"
+            }
+        }
+    }
+}

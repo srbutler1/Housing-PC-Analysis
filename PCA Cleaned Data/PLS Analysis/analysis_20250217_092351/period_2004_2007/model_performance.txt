@@ -1,0 +1,17 @@
+Period: 2004_2007
+R² Score: 0.7530
+RMSE: 0.0261
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2631
+Significant Factors:
+
+component_2:
+Explained Variance: 0.2056
+Significant Factors:
+
+component_3:
+Explained Variance: 0.0739
+Significant Factors:

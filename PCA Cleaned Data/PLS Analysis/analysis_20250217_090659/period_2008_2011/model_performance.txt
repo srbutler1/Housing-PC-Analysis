@@ -1,0 +1,25 @@
+Period: 2008_2011
+R² Score: -127.4392
+RMSE: 0.9381
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3088
+Significant Factors:
+• Housing Starts: -0.6903
+• PRFI: -0.6480
+
+component_2:
+Explained Variance: 0.5905
+Significant Factors:
+• PPI: 0.5323
+• Mortgage Rate: 0.4277
+• CPI: 0.7998
+
+component_3:
+Explained Variance: 0.6831
+Significant Factors:
+• Housing Starts: -0.3868
+• Mortgage Rate: 0.5803
+• CPI: -0.9017

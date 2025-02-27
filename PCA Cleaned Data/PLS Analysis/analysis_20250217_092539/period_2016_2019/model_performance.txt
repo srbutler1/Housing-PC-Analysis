@@ -1,0 +1,17 @@
+Period: 2016_2019
+R² Score: 0.7953
+RMSE: 0.0176
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.4148
+Significant Factors:
+
+component_2:
+Explained Variance: 0.3518
+Significant Factors:
+
+component_3:
+Explained Variance: 0.2334
+Significant Factors:

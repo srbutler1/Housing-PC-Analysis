@@ -1,0 +1,56 @@
+Period: 2016_2019
+R² Score: 0.7953
+RMSE: 0.0176
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.4148
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.1835
+• prfi: 0.2151
+• population: 0.1624
+• dpi: 0.1991
+• unemployment: 0.0293
+• mortgage: 0.1768
+• mspus: 0.0624
+• cpi: 0.0753
+• ppi: 0.0030
+• gdp: 0.0564
+
+component_2:
+Explained Variance: 0.3518
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.1879
+• prfi: 0.2151
+• population: 0.1624
+• dpi: 0.2037
+• unemployment: 0.1022
+• mortgage: 0.1771
+• mspus: 0.0929
+• cpi: 0.0783
+• ppi: 0.0598
+• gdp: 0.1181
+
+component_3:
+Explained Variance: 0.2334
+
+Significant Factors:
+
+VIP Scores:
+• housing_starts: 0.1969
+• prfi: 0.2209
+• population: 0.1632
+• dpi: 0.2062
+• unemployment: 0.1026
+• mortgage: 0.1887
+• mspus: 0.0931
+• cpi: 0.0783
+• ppi: 0.0608
+• gdp: 0.1200

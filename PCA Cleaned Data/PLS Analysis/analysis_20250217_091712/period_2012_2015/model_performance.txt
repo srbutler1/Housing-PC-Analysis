@@ -1,0 +1,27 @@
+Period: 2012_2015
+R² Score: -908.1954
+RMSE: 1.0113
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2596
+Significant Factors:
+• Market_mspus: -0.4097
+• Market_cpi: -0.7114
+• Market_ppi: -0.5112
+
+component_2:
+Explained Variance: 0.5100
+Significant Factors:
+• Supply_housing_starts: -0.5555
+• Supply_prfi: -0.4824
+• Market_mortgage: 0.4479
+• Market_mspus: -0.5118
+• Market_cpi: 0.5849
+• Market_ppi: 0.4685
+
+component_3:
+Explained Variance: 0.6350
+Significant Factors:
+• Market_mspus: 0.9402

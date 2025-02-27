@@ -1,0 +1,27 @@
+Period: 2012_2015
+R² Score: -908.1954
+RMSE: 1.0113
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2596
+Significant Factors:
+• House Prices: -0.4097
+• PPI: -0.5112
+• CPI: -0.7114
+
+component_2:
+Explained Variance: 0.5100
+Significant Factors:
+• Housing Starts: -0.5555
+• House Prices: -0.5118
+• PRFI: -0.4824
+• PPI: 0.4685
+• Mortgage Rate: 0.4479
+• CPI: 0.5849
+
+component_3:
+Explained Variance: 0.6350
+Significant Factors:
+• House Prices: 0.9402

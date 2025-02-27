@@ -1,0 +1,32 @@
+Analysis Summary for Period: 2012_2015
+==================================================
+
+Component Loadings:
+--------------------
+                Component 1  Component 2  Component 3
+housing_starts     0.226906    -0.322799    -0.279154
+prfi              -0.326394    -0.177099     0.813852
+population         0.559156     0.024078     0.221002
+dpi                0.340574    -0.085816    -0.043291
+unemployment      -0.181646    -0.283653    -0.093436
+mortgage           0.065228     0.450279     0.448389
+mspus             -0.178375    -0.148631    -0.057643
+cpi               -0.511018     0.462669    -0.241094
+ppi               -0.493498     0.441407    -0.143500
+gdp               -0.059561     0.450917     0.509987
+
+Regression Coefficients:
+--------------------
+                Coefficient
+housing_starts     0.020279
+prfi              -0.457722
+population         0.345058
+dpi                0.174273
+unemployment      -0.291067
+mortgage           0.192762
+mspus             -0.151094
+cpi                0.082986
+ppi               -0.122793
+gdp                0.082066
+
+R-squared: 0.6472

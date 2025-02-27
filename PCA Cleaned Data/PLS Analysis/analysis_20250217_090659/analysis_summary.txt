@@ -1,0 +1,302 @@
+PLS Regression Analysis Summary
+==============================
+
+
+Period: 1996_1999
+=================
+
+Model Performance:
+R² Score: -484.3273
+RMSE: 0.8098
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2443
+Significant Factors:
+• Population: 0.4541
+• Mortgage Rate: 0.9192
+
+component_2:
+Explained Variance: 0.5166
+Significant Factors:
+• House Prices: 0.5828
+• PRFI: -0.4159
+• PPI: 0.6786
+• Population: -1.5005
+• Mortgage Rate: 0.3608
+• Unemployment: 0.3648
+• CPI: 0.5105
+
+component_3:
+Explained Variance: 0.7687
+Significant Factors:
+• Population: 0.8750
+• Mortgage Rate: -0.4137
+
+Period: 2000_2003
+=================
+
+Model Performance:
+R² Score: -1972.4734
+RMSE: 1.0164
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3318
+Significant Factors:
+• House Prices: 0.5311
+• Mortgage Rate: 0.7936
+
+component_2:
+Explained Variance: 0.4850
+Significant Factors:
+• House Prices: -0.9124
+• CPI: -0.3863
+
+component_3:
+Explained Variance: 0.7191
+Significant Factors:
+• House Prices: 0.8413
+• CPI: -0.5357
+
+Period: 2004_2007
+=================
+
+Model Performance:
+R² Score: -501.7337
+RMSE: 1.1759
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3912
+Significant Factors:
+• Housing Starts: -0.5012
+• House Prices: -0.5914
+• PRFI: -0.6624
+
+component_2:
+Explained Variance: 0.5378
+Significant Factors:
+• Housing Starts: 0.5173
+• PRFI: 0.6794
+• Mortgage Rate: 0.6117
+
+component_3:
+Explained Variance: 0.6186
+Significant Factors:
+• House Prices: 0.7496
+• PRFI: -0.5278
+• CPI: 0.3711
+
+Period: 2008_2011
+=================
+
+Model Performance:
+R² Score: -127.4392
+RMSE: 0.9381
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3088
+Significant Factors:
+• Housing Starts: -0.6903
+• PRFI: -0.6480
+
+component_2:
+Explained Variance: 0.5905
+Significant Factors:
+• PPI: 0.5323
+• Mortgage Rate: 0.4277
+• CPI: 0.7998
+
+component_3:
+Explained Variance: 0.6831
+Significant Factors:
+• Housing Starts: -0.3868
+• Mortgage Rate: 0.5803
+• CPI: -0.9017
+
+Period: 2012_2015
+=================
+
+Model Performance:
+R² Score: -908.1954
+RMSE: 1.0113
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2596
+Significant Factors:
+• House Prices: -0.4097
+• PPI: -0.5112
+• CPI: -0.7114
+
+component_2:
+Explained Variance: 0.5100
+Significant Factors:
+• Housing Starts: -0.5555
+• House Prices: -0.5118
+• PRFI: -0.4824
+• PPI: 0.4685
+• Mortgage Rate: 0.4479
+• CPI: 0.5849
+
+component_3:
+Explained Variance: 0.6350
+Significant Factors:
+• House Prices: 0.9402
+
+Period: 2016_2019
+=================
+
+Model Performance:
+R² Score: -422.7539
+RMSE: 0.7998
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.1839
+Significant Factors:
+• House Prices: -0.4970
+• Mortgage Rate: 0.7903
+
+component_2:
+Explained Variance: 0.3805
+Significant Factors:
+• Housing Starts: -0.6719
+• House Prices: 1.0675
+• PRFI: -0.3588
+• PPI: -0.5323
+• Population: 0.5996
+• CPI: -0.4904
+
+component_3:
+Explained Variance: 0.5587
+Significant Factors:
+• PPI: 0.5416
+• Population: -0.6428
+• CPI: 0.4369
+
+Period: 2020_2023
+=================
+
+Model Performance:
+R² Score: -80.8385
+RMSE: 1.9037
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.1667
+Significant Factors:
+• PPI: -0.6079
+• Population: 0.7315
+
+component_2:
+Explained Variance: 0.5393
+Significant Factors:
+• PPI: 0.4658
+• DPI: -0.4511
+• GDP: 0.7275
+• Unemployment: -0.7299
+
+component_3:
+Explained Variance: 0.7570
+Significant Factors:
+• DPI: 0.6200
+• GDP: -0.4395
+• Unemployment: 0.5817
+
+
+Temporal Analysis
+=================
+
+Pre-Financial Crisis (2004-2007):
+---------------------------------
+
+Period 2004_2007:
+R² Score: -501.7337
+
+Top factors for component_1:
+• Housing Starts: -0.5012
+• House Prices: -0.5914
+• PRFI: -0.6624
+
+Top factors for component_2:
+• Housing Starts: 0.5173
+• PRFI: 0.6794
+• Mortgage Rate: 0.6117
+
+Top factors for component_3:
+• House Prices: 0.7496
+• PRFI: -0.5278
+• CPI: 0.3711
+
+Financial Crisis (2008-2011):
+-----------------------------
+
+Period 2008_2011:
+R² Score: -127.4392
+
+Top factors for component_1:
+• Housing Starts: -0.6903
+• PRFI: -0.6480
+
+Top factors for component_2:
+• PPI: 0.5323
+• Mortgage Rate: 0.4277
+• CPI: 0.7998
+
+Top factors for component_3:
+• Housing Starts: -0.3868
+• Mortgage Rate: 0.5803
+• CPI: -0.9017
+
+Post-Crisis Recovery (2012-2015):
+---------------------------------
+
+Period 2012_2015:
+R² Score: -908.1954
+
+Top factors for component_1:
+• House Prices: -0.4097
+• PPI: -0.5112
+• CPI: -0.7114
+
+Top factors for component_2:
+• Housing Starts: -0.5555
+• House Prices: -0.5118
+• PRFI: -0.4824
+• PPI: 0.4685
+• Mortgage Rate: 0.4479
+• CPI: 0.5849
+
+Top factors for component_3:
+• House Prices: 0.9402
+
+Recent Period (2020-2023):
+--------------------------
+
+Period 2020_2023:
+R² Score: -80.8385
+
+Top factors for component_1:
+• PPI: -0.6079
+• Population: 0.7315
+
+Top factors for component_2:
+• PPI: 0.4658
+• DPI: -0.4511
+• GDP: 0.7275
+• Unemployment: -0.7299
+
+Top factors for component_3:
+• DPI: 0.6200
+• GDP: -0.4395
+• Unemployment: 0.5817

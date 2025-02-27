@@ -1,0 +1,72 @@
+
+Mathematical Documentation of PLS Regression Analysis
+==================================================
+
+1. Data Preprocessing
+-------------------
+For each independent variable x_i, we calculate the quarter-over-quarter percent change:
+    Δx_i = (x_i,t - x_i,t-1) / x_i,t-1 * 100
+
+We then normalize using max absolute value scaling to preserve the direction of change:
+    x_i_normalized = Δx_i / max(|Δx_i|)
+
+This scaling method:
+- Preserves the sign (direction) of changes
+- Bounds values between -1 and 1
+- Maintains relative magnitude of changes
+- Allows for comparison between variables on different scales
+
+2. Component Selection
+--------------------
+The number of components is determined using the Residual Variance Indicator (RVI):
+    RVI_a = trace(X_a^T X_a) / trace(X_{a-1}^T X_{a-1})
+
+where:
+- X_a is the residual matrix after extracting a components
+- The algorithm stops when RVI stabilizes (change < 2.5%)
+
+3. PLS Regression Model
+---------------------
+The PLS regression follows these steps:
+
+a) For each component a:
+   - Calculate scores: t_a = X_{a-1} w_a
+   - Calculate X loadings: p_a = X_{a-1}^T t_a / (t_a^T t_a)
+   - Calculate Y loadings: q_a = y_{a-1}^T t_a / (t_a^T t_a)
+   - Update X: X_a = X_{a-1} - t_a p_a^T
+   - Update y: y_a = y_{a-1} - t_a q_a
+
+b) Final regression equation:
+    HAI = β_0 + Σ(β_i * x_i)
+    where β_i are the regression coefficients
+
+4. Time Period Analysis
+---------------------
+To analyze how drivers of housing affordability change over time:
+
+a) Split data into periods:
+   - 1996-2000: Pre-housing boom
+   - 2001-2006: Housing boom
+   - 2007-2012: Financial crisis and recovery
+   - 2013-2018: Post-crisis period
+   - 2019-2023: Recent period
+
+b) For each period:
+   - Calculate mean HAI
+   - Calculate mean component scores
+   - Identify top contributing variables through loading analysis
+
+5. Interpretation
+---------------
+- Component loadings (p_a) show how variables relate to each component
+- Significant loadings are those with |loading| > 0.35
+- Component scores (t_a) show how each observation relates to components
+- Regression coefficients (β_i) show direct effects on HAI
+- Time period analysis reveals how drivers change over different market conditions
+
+6. Model Evaluation
+-----------------
+- R² measures total variance explained in HAI
+- Individual component contributions show incremental variance explained
+- Loading patterns reveal underlying market dynamics
+- Temporal analysis shows evolution of housing affordability drivers

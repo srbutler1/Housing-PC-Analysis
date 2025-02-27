@@ -1,0 +1,23 @@
+Period: 2000_2003
+R² Score: -1972.4734
+RMSE: 1.0164
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3318
+Significant Factors:
+• House Prices: 0.5311
+• Mortgage Rate: 0.7936
+
+component_2:
+Explained Variance: 0.4850
+Significant Factors:
+• House Prices: -0.9124
+• CPI: -0.3863
+
+component_3:
+Explained Variance: 0.7191
+Significant Factors:
+• House Prices: 0.8413
+• CPI: -0.5357

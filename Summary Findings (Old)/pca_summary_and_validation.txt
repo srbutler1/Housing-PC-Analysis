@@ -1,0 +1,84 @@
+PCA Analysis Summary and Validation
+
+Introduction:
+This document summarizes the results of a Principal Component Analysis (PCA) conducted on housing market data from 1996 to 2022. The PCA aimed to identify the underlying factors driving the housing market and understand their evolution over time. The analysis used quarterly data on various economic and housing market indicators, including GDP, population, housing starts, prices, income, mortgage rates, and construction costs.
+
+Summary Tables:
+
+Table 1. Evolution of Principal Components' Explanatory Power (1996-2022)
+─────────────────────────────────────────────────────────────────────────
+Period          PC1 (%)     PC2 (%)     PC3 (%)     Cumulative (%)
+─────────────────────────────────────────────────────────────────────────
+1996-1999       62.35       14.71       11.74       88.80
+2000-2003       69.56       14.61        6.83       91.00
+2004-2007       61.87       19.79        8.18       89.84
+2008-2011       50.92       22.87       13.21       87.00
+2012-2015       54.39       17.47        9.24       81.10
+2016-2019       56.91       16.21       11.86       84.98
+2020-2022       61.95       22.89        6.39       91.23
+─────────────────────────────────────────────────────────────────────────
+
+Table 2. Principal Component Interpretations by Period
+────────────────────────────────────────────────────────────────────────────────────────────────
+Period          PC1                     PC2                     PC3
+────────────────────────────────────────────────────────────────────────────────────────────────
+1996-1999       Economic Growth         Financial Conditions    Market Activity
+2000-2003       Market Size             Cost                    Inflation
+2004-2007       Cost Pressure           Supply                  Financial
+2008-2011       Household               Price                   Market Activity
+2012-2015       Economic Recovery       Financial               Cost
+2016-2019       Market Health           Financial               Price
+2020-2022       Price Pressure          Supply/Income           Market Activity
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+Table 3. Top Factor Loadings by Component (Selected Periods)
+────────────────────────────────────────────────────────────────────────────────────────────────
+Period     Component     Top Factors (Loading Values)
+────────────────────────────────────────────────────────────────────────────────────────────────
+1996-1999  PC1          GDP (0.349), Population (0.348), Investment (0.348)
+           PC2          Mortgage Rates (0.607), Construction Price Changes (0.220)
+           PC3          Price Changes (0.737), Housing Starts (0.264)
+
+2008-2011  PC1          Population (0.376), Income (0.364), Mortgage Rates (0.361)
+(Crisis)   PC2          CPI (0.443), GDP (0.426), Housing Prices (0.407)
+           PC3          Price Changes (0.605), Housing Starts (0.305)
+
+2020-2022  PC1          Construction Prices (0.349), Housing Prices (0.347), GDP (0.344)
+(Pandemic) PC2          Housing Starts (0.550), Income (0.442), Mortgage Rates (0.323)
+           PC3          Income (0.496), Unemployment (0.314), Housing Starts (0.231)
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+Table 4. Key Structural Changes in Housing Market Determinants
+────────────────────────────────────────────────────────────────────────────────────────────────
+Period          Primary Drivers                 Notable Changes
+────────────────────────────────────────────────────────────────────────────────────────────────
+Pre-2008        Market fundamentals             • GDP and population dominated PC1
+                                               • Traditional financial factors in PC2
+                                               • Clear separation of components
+
+2008-2011       Population and income           • Lowest PC1 explanatory power (50.92%)
+Crisis                                         • Increased importance of price factors
+                                               • Higher dispersion across components
+
+Post-2008       Balanced factor mix             • Return to fundamentals but with new emphasis
+Recovery                                        • Construction prices gained importance
+                                               • More complex interplay of factors
+
+2020-2022       Construction and prices         • High concentration in first two components
+Pandemic                                        • Strong supply-side influence
+                                               • Unique income-supply relationship
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+Validation:
+The PCA results are valid based on the following observations:
+
+1. High Explanatory Power: The first three principal components consistently explain a large portion of the variance in the data (over 80% cumulatively across all periods). This indicates that the PCA effectively captures the underlying structure of the housing market.
+
+2. Meaningful Interpretations: The interpretations of the principal components align with domain knowledge and expectations. PC1 generally represents economic growth or market size, PC2 represents financial conditions or cost, and PC3 represents market activity or inflation.
+
+3. Consistent Factor Loadings: The top factor loadings are consistent with the interpretations of the principal components. For example, GDP and population load highly on PC1 in periods where it represents economic growth, while mortgage rates load highly on PC2 when it represents financial conditions.
+
+4. Key Findings: The analysis reveals important trends and structural changes, such as the increasing importance of supply-side factors and the impact of crises on variable relationships. These findings are consistent with observed housing market dynamics.
+
+Conclusion:
+The PCA provides valuable insights into the factors driving the housing market and their evolution over time. The analysis reveals a shift from traditional economic fundamentals to a more complex interplay of factors, with increasing importance of supply-side constraints, construction costs, and housing prices. The findings also highlight the impact of crises on the housing market, with income playing a more prominent role during such periods. These insights can inform housing policy and investment decisions by providing a deeper understanding of the underlying drivers of the housing market.

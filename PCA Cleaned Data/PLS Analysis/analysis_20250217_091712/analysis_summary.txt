@@ -1,0 +1,190 @@
+PLS Regression Analysis Summary
+============================
+
+
+Period: 1996_1999
+=================
+
+Model Performance:
+R² Score: -484.3273
+RMSE: 0.8098
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2443
+Significant Factors:
+
+component_2:
+Explained Variance: 0.5166
+Significant Factors:
+
+component_3:
+Explained Variance: 0.7687
+Significant Factors:
+
+Period: 2000_2003
+=================
+
+Model Performance:
+R² Score: -1972.4734
+RMSE: 1.0164
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3318
+Significant Factors:
+
+component_2:
+Explained Variance: 0.4850
+Significant Factors:
+
+component_3:
+Explained Variance: 0.7191
+Significant Factors:
+
+Period: 2004_2007
+=================
+
+Model Performance:
+R² Score: -501.7337
+RMSE: 1.1759
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3912
+Significant Factors:
+
+component_2:
+Explained Variance: 0.5378
+Significant Factors:
+
+component_3:
+Explained Variance: 0.6186
+Significant Factors:
+
+Period: 2008_2011
+=================
+
+Model Performance:
+R² Score: -127.4392
+RMSE: 0.9381
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3088
+Significant Factors:
+
+component_2:
+Explained Variance: 0.5905
+Significant Factors:
+
+component_3:
+Explained Variance: 0.6831
+Significant Factors:
+
+Period: 2012_2015
+=================
+
+Model Performance:
+R² Score: -908.1954
+RMSE: 1.0113
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.2596
+Significant Factors:
+
+component_2:
+Explained Variance: 0.5100
+Significant Factors:
+
+component_3:
+Explained Variance: 0.6350
+Significant Factors:
+
+Period: 2016_2019
+=================
+
+Model Performance:
+R² Score: -422.7539
+RMSE: 0.7998
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.1839
+Significant Factors:
+
+component_2:
+Explained Variance: 0.3805
+Significant Factors:
+
+component_3:
+Explained Variance: 0.5587
+Significant Factors:
+
+Period: 2020_2023
+=================
+
+Model Performance:
+R² Score: -80.8385
+RMSE: 1.9037
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.1667
+Significant Factors:
+
+component_2:
+Explained Variance: 0.5393
+Significant Factors:
+
+component_3:
+Explained Variance: 0.7570
+Significant Factors:
+
+
+Temporal Analysis
+=================
+
+Early Period (1996-2003)
+------------------------
+
+Period 1996_1999:
+R² Score: -484.3273
+
+Period 2000_2003:
+R² Score: -1972.4734
+
+Pre-Financial Crisis (2004-2007)
+--------------------------------
+
+Period 2004_2007:
+R² Score: -501.7337
+
+Financial Crisis (2008-2011)
+----------------------------
+
+Period 2008_2011:
+R² Score: -127.4392
+
+Post-Crisis Recovery (2012-2015)
+--------------------------------
+
+Period 2012_2015:
+R² Score: -908.1954
+
+Recent Period (2016-2023)
+-------------------------
+
+Period 2016_2019:
+R² Score: -422.7539
+
+Period 2020_2023:
+R² Score: -80.8385

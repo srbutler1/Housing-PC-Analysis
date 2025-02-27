@@ -1,0 +1,26 @@
+Period: 2020_2023
+R² Score: -80.8385
+RMSE: 1.9037
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.1667
+Significant Factors:
+• PPI: -0.6079
+• Population: 0.7315
+
+component_2:
+Explained Variance: 0.5393
+Significant Factors:
+• PPI: 0.4658
+• DPI: -0.4511
+• GDP: 0.7275
+• Unemployment: -0.7299
+
+component_3:
+Explained Variance: 0.7570
+Significant Factors:
+• DPI: 0.6200
+• GDP: -0.4395
+• Unemployment: 0.5817

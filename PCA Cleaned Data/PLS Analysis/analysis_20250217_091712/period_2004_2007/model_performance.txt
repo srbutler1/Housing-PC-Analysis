@@ -1,0 +1,26 @@
+Period: 2004_2007
+R² Score: -501.7337
+RMSE: 1.1759
+
+Component Analysis:
+
+component_1:
+Explained Variance: 0.3912
+Significant Factors:
+• Supply_housing_starts: -0.5012
+• Supply_prfi: -0.6624
+• Market_mspus: -0.5914
+
+component_2:
+Explained Variance: 0.5378
+Significant Factors:
+• Supply_housing_starts: 0.5173
+• Supply_prfi: 0.6794
+• Market_mortgage: 0.6117
+
+component_3:
+Explained Variance: 0.6186
+Significant Factors:
+• Supply_prfi: -0.5278
+• Market_mspus: 0.7496
+• Market_cpi: 0.3711

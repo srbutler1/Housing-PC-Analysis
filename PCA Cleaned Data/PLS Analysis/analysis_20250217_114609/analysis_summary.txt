@@ -1,0 +1,59 @@
+Period: 2020_2023
+
+Component Analysis:
+
+Component 1:
+
+Loadings:
+• housing_starts: -0.2214
+• prfi: -0.4885
+• population: 0.6322
+• dpi: -0.0125
+• unemployment: 0.1269
+• mortgage: 0.4105
+• mspus: -0.2423
+• cpi: -0.1350
+• ppi: -0.4090
+• gdp: -0.1447
+
+Component 2:
+
+Loadings:
+• housing_starts: 0.1199
+• prfi: 0.3688
+• population: 0.1673
+• dpi: -0.4050
+• unemployment: -0.5443
+• mortgage: 0.2169
+• mspus: 0.2619
+• cpi: 0.2874
+• ppi: 0.2685
+• gdp: 0.5701
+
+Component 3:
+
+Loadings:
+• housing_starts: 0.6424
+• prfi: 0.0423
+• population: 0.0968
+• dpi: 0.4277
+• unemployment: 0.1541
+• mortgage: -0.2570
+• mspus: -0.6797
+• cpi: -0.2417
+• ppi: 0.0368
+• gdp: -0.0742
+
+Regression Coefficients:
+• housing_starts: 0.1290
+• prfi: -0.1666
+• population: 0.6615
+• dpi: 0.1148
+• unemployment: -0.1456
+• mortgage: 0.3395
+• mspus: -0.3151
+• cpi: 0.0453
+• ppi: -0.0280
+• gdp: 0.1638
+
+R-squared: 0.9409
