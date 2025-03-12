@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Affordability Component Analysis (1996-2023)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .period-container {
+            margin-bottom: 50px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .period-summary {
+            background-color: #e8f4fc;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        .component-explanation {
+            display: flex;
+            margin: 20px 0;
+        }
+        .component {
+            flex: 1;
+            padding: 15px;
+            margin: 0 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .component.one {
+            border-top: 4px solid #1f77b4;
+        }
+        .component.two {
+            border-top: 4px solid #ff7f0e;
+        }
+        .visualization {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .visualization img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .key-event {
+            background-color: #fffbeb;
+            padding: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #f39c12;
+        }
+        .positive {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .negative {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .neutral {
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Housing Affordability Component Analysis (1996-2023)</h1>
+    
+    <div class="period-container">
+        <h2>Understanding the Components</h2>
+        <p>This analysis examines housing affordability through two principal components derived from PLS regression:</p>
+        
+        <div class="component-explanation">
+            <div class="component one">
+                <h3>Component 1: Housing Market Dynamics</h3>
+                <p>This component captures the direct housing market factors affecting affordability:</p>
+                <ul>
+                    <li><strong>Mortgage rates</strong>: Higher rates increase monthly payments, reducing affordability</li>
+                    <li><strong>Housing starts</strong>: New construction affects housing supply</li>
+                    <li><strong>PRFI (Private Residential Fixed Investment)</strong>: Investment in residential construction</li>
+                    <li><strong>Vacancy rates</strong>: Available housing stock</li>
+                    <li><strong>Population growth</strong>: Demographic pressure on housing demand</li>
+                </ul>
+                <p><strong>Interpretation:</strong> Positive values indicate housing market conditions that reduce affordability (higher mortgage rates, insufficient construction relative to population growth). Negative values suggest improved affordability conditions.</p>
+            </div>
+            
+            <div class="component two">
+                <h3>Component 2: Economic Conditions</h3>
+                <p>This component represents broader economic factors influencing affordability:</p>
+                <ul>
+                    <li><strong>GDP</strong>: Overall economic growth</li>
+                    <li><strong>Unemployment</strong>: Labor market conditions</li>
+                    <li><strong>Construction costs</strong>: Material and labor expenses for building</li>
+                    <li><strong>Housing prices</strong>: Market valuations of homes</li>
+                </ul>
+                <p><strong>Interpretation:</strong> Positive values indicate economic conditions that typically reduce affordability (rising prices, higher construction costs). Negative values suggest economic conditions that may improve affordability (economic contractions that lower housing prices).</p>
+            </div>
+        </div>
+        
+        <div class="period-summary">
+            <p>When both components are positive, housing affordability is significantly reduced. When both are negative, affordability is improved. Mixed signals (one positive, one negative) indicate competing forces affecting affordability.</p>
+        </div>
+    </div>
+
+    <div class="period-container">
+        <h2>1996-2000: Pre-Housing Boom</h2>
+        
+        <div class="visualization">
+            <img src="visualizations/component_scores_1996_2012.png" alt="Component Scores 1996-2012" />
+        </div>
+        
+        <div class="period-summary">
+            <p>This period was characterized by the dot-com boom and strong economic growth. Housing affordability fluctuated but remained relatively stable as economic prosperity was balanced by reasonable housing market conditions. The period ended with the beginning of the dot-com bubble burst, which would set the stage for the subsequent housing boom.</p>
+        </div>
+        
+        <h3>Quarterly Component Drivers</h3>
+        
+        <div class="component-explanation">
+            <div class="component one">
+                <h4>Component 1 Trends (Housing Market)</h4>
+                <p>Housing market dynamics showed moderate volatility during this period:</p>
+                <ul>
+                    <li>1996-1997: Slightly positive values as mortgage rates stabilized around 7-8%</li>
+                    <li>1998: Temporary improvement as housing starts increased</li>
+                    <li>1999: Sharp increase during the dot-com boom as investment capital flowed into real estate</li>
+                    <li>2000: Moderation as the economy began to show signs of slowing</li>
+                </ul>
+                <p>The housing market was generally balanced during this period, with mortgage rates remaining relatively stable and construction activity keeping pace with population growth.</p>
+            </div>
+            
+            <div class="component two">
+                <h4>Component 2 Trends (Economic Conditions)</h4>
+                <p>Economic conditions showed strong performance:</p>
+                <ul>
+                    <li>1996-1997: Positive economic growth with low unemployment</li>
+                    <li>1998: Temporary dip during the Asian financial crisis</li>
+                    <li>1999: Strong positive values during peak dot-com prosperity</li>
+                    <li>2000: Beginning decline as the dot-com bubble started to burst</li>
+                </ul>
+                <p>The strong economy of the late 1990s created upward pressure on housing prices, but this was partially offset by productivity gains and wage growth.</p>
+            </div>
+        </div>
+        
+        <div class="key-event">
+            <h4>Key Event: Dot-com Boom (1999)</h4>
+            <p>The peak of the dot-com boom saw both components turn positive, indicating reduced affordability as economic prosperity drove housing demand. The technology sector growth centered in urban areas like San Francisco and Seattle created localized affordability challenges that would become more widespread in later years.</p>
+        </div>
+    </div>
+
+    <div class="period-container">
+        <h2>2000-2003: Dot-com Bust and Recovery</h2>
+        
+        <div class="period-summary">
+            <p>This transitional period saw the collapse of the dot-com bubble and subsequent economic recovery. Housing affordability temporarily improved during the recession but quickly deteriorated as the Federal Reserve lowered interest rates to stimulate the economy, inadvertently fueling what would become the housing bubble.</p>
+        </div>
+        
+        <h3>Quarterly Component Drivers</h3>
+        
+        <div class="component-explanation">
+            <div class="component one">
+                <h4>Component 1 Trends (Housing Market)</h4>
+                <p>Housing market dynamics shifted dramatically:</p>
+                <ul>
+                    <li>2000-2001: Component turned negative as the dot-com crash reduced housing demand</li>
+                    <li>2002: Values remained negative as mortgage rates fell to stimulate the economy</li>
+                    <li>2003: Began turning positive as low rates spurred housing market activity</li>
+                </ul>
+                <p>The Federal Reserve's aggressive interest rate cuts (from 6.5% to 1% between 2000-2003) dramatically improved financing conditions, setting the stage for the housing boom.</p>
+            </div>
+            
+            <div class="component two">
+                <h4>Component 2 Trends (Economic Conditions)</h4>
+                <p>Economic conditions reflected recession and recovery:</p>
+                <ul>
+                    <li>2000-2001: Component turned negative during the recession</li>
+                    <li>2002: Remained negative as unemployment peaked at 6.3%</li>
+                    <li>2003: Turned positive as economic recovery gained momentum</li>
+                </ul>
+                <p>The recession temporarily improved affordability as housing prices stagnated, but the recovery quickly reversed this trend as economic stimulus fueled housing demand.</p>
+            </div>
+        </div>
+        
+        <div class="key-event">
+            <h4>Key Event: Post-Dot-Com Recovery (2003)</h4>
+            <p>The economic recovery in 2003 marked a crucial turning point as monetary policy created extremely favorable financing conditions. The combination of low interest rates, relaxed lending standards, and renewed economic confidence laid the groundwork for the housing bubble.</p>
+        </div>
+    </div>
