@@ -2,6 +2,22 @@
 
 This repository contains a comprehensive analysis of housing affordability in the United States from 1996 to 2023 using Partial Least Squares (PLS) regression. The analysis examines how various economic and housing market factors influence the Housing Affordability Index (HAI) over time.
 
+## Key Visualizations
+
+### Combined Component Scores (1996-2023)
+![Combined Component Scores](visualizations/combined_component_scores_1996_2023.png)
+
+### Housing Affordability Component Scores (1996-2012)
+![Component Scores 1996-2012](visualizations/component_scores_1996_2012.png)
+
+### Housing Affordability Component Scores (2013-2023)
+![Component Scores 2013-2023](visualizations/component_scores_2013_2023.png)
+
+### Affordability Quadrants Chart
+![Affordability Quadrants](visualizations/affordability_quadrants_chart.png)
+
+### Component Validation - RVI Analysis
+![RVI Analysis](scratch_runs/component_validation.png)
 
 # IMPORTANT
 - Final model is in PLS Single Analysis: `PCA Cleaned Data/PLS Analysis`
