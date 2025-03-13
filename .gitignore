@@ -56,3 +56,6 @@ myenv/
 .vscode/
 *.swp
 *.swo
+
+#ignore this html
+housing_affordability_detailed_analysis.html
